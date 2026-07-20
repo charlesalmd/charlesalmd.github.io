@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Almeida - Matemática UFMG</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: var(--accent-color);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+
+        section {
+            padding: 30px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
+            margin-top: 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .language-switch {
+            text-align: right;
+            padding: 10px 20px;
+            background: #eee;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="language-switch">
+        <a href="#">This page in English</a>
+    </div>
+
+    <header>
+        <h1>Charles Almeida</h1>
+        <p>Departamento de Matemática - ICEx/UFMG</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Página Inicial</a></li>
+            <li><a href="#pesquisa">Pesquisa</a></li>
+            <li><a href="#orientacao">Orientação</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#ensino">Ensino</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo!</h2>
+            <p>Sou Professor Adjunto do Departamento de Matemática do ICEx-UFMG, desde 2019 e Coordenador Acadêmico do PIC–OBMEP (Região MG01).</p>
+            <p>Atuo em geometria algébrica, com foco em espaços de moduli de feixes, fibrados vetoriais e, mais recentemente, supergeometria algébrica.</p>
+        </section>
+
+        <section id="pesquisa">
+            <h2>Pesquisa</h2>
+            <p>Meu programa de pesquisa investiga a geometria de espaços de moduli de feixes em variedades projetivas, com ênfase na estrutura global desses espaços, incluindo a descrição de componentes irredutíveis, sua geometria e fenômenos de decomposição.</p>
+            <p>Parte central do meu trabalho consiste em construir e identificar novos componentes irredutíveis de espaços de moduli e compreender suas propriedades geométricas e invariantes associados, explorando interações com propriedades de Lefschetz e estruturas algébricas relacionadas.</p>
+            <p>Mais recentemente, tenho expandido essa linha de pesquisa para o contexto da supergeometria algébrica, estudando fibrados e espaços de moduli em supervariedades, com o objetivo de estabelecer fundamentos geométricos e novas correspondências estruturais nesse cenário, incluindo conexões com motivações oriundas da física teórica.</p>
+            <p>A lista das minhas publicações pode ser encontrada <a href="#">aqui</a> <em>(adicione o link correto)</em>.</p>
+        </section>
+
+        <section id="orientacao">
+            <h2>Orientação</h2>
+            <p>Atualmente oriento alunos de mestrado e doutorado na área de geometria algébrica.</p>
+            <p>Alunos interessados em trabalhar comigo devem ter uma formação sólida em álgebra e são incentivados a cursar disciplinas de Geometria Algébrica e Álgebra Comutativa. Caso tenha interesse, recomendo entrar em contato durante ou após cursar essas disciplinas, para discutirmos possíveis direções de pesquisa.</p>
+            <p><strong>No momento, não estou aceitando novos alunos de iniciação científica.</strong></p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Obtive meu bacharelado (2010–2014) e doutorado direto (2014–2019) em Matemática pela UNICAMP, com período de doutorado sanduíche na Universitat de Barcelona (Barcelona-Espanha).</p>
+            <p>Realizei pós-doutorado no IME–USP em 2019. Durante o ano de 2024, fui pesquisador visitante na SISSA (Trieste-Itália).</p>
+        </section>
+        
+        <section id="ensino">
+            <h2>Ensino Recente</h2>
+            <p>Informações sobre as disciplinas ministradas. <em>(Você pode adicionar links para páginas específicas ou materiais de aula aqui)</em>.</p>
+            <ul>
+                <li>MAT001 TM/TN (Verão 2026)</li>
+                <li>Geometria Algébrica (2S/2025)</li>
+                <li>Introdução à Geometria Algébrica (1S/2025)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Charles Almeida. Hospedado no GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
