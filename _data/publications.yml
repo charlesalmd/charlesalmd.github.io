@@ -33,16 +33,20 @@
   authors: ["Charles Almeida", "Aline V. Andrade", "Rodrigo Gondim"]
   journal: "Bulletin of the London Mathematical Society"
   year: 2025
+  selected: true
+  arxiv: "2311.02178"
+  status_check: "Lattes diz v. TBA: confirmar se ja saiu ou se e to appear"
   status: published
   volume: ""        # Lattes: "TBA"
   pages: ""
   doi: ""
-  arxiv: ""
 
 - title: "A generalization of Cayley-Hamilton algebras and an introduction to their geometries"
   authors: ["Charles Almeida", "Claudemir Fidelis", "José Lucas Galdino"]
   journal: "Israel Journal of Mathematics"
   year: 2024
+  selected: true
+  status_check: "Lattes diz v. TBD: confirmar se ja saiu ou se e to appear"
   status: published
   volume: ""        # Lattes: "TBD"
   pages: ""
@@ -53,6 +57,7 @@
   authors: ["Charles Almeida", "Marcos Jardim", "Alexander S. Tikhomirov"]
   journal: "Advances in Mathematics"
   year: 2022
+  selected: true
   status: published
   volume: "402"
   pages: "108363"
@@ -93,7 +98,7 @@
 - title: "Lefschetz property and powers of linear forms in K[x,y,z]"
   authors: ["Charles Almeida", "Aline V. Andrade"]
   journal: "Forum Mathematicum"
-  year: 2017       # verificar: o volume 30 da Forum Math. costuma ser datado de 2018
+  year: 2018       # confirmado: Forum Math. 30(4), jul 2018 (base FAPESP/Web of Science)
   status: published
   volume: "30"
   pages: "857-865"

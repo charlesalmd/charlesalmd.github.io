@@ -3,9 +3,9 @@
 
 current:
   postdoc:
-    - name: "Gabriel ????"          # NÃO está no Lattes; Charles confirma nome completo e se entra
+    - name: "Gabriel Barbosa"        # nao esta no Lattes; confirmado por Charles
       topic: "Folheações, estruturas de Poisson e superfolheações"
-      since: 2026
+      topic_en: "Foliations, Poisson structures and superfoliations"
   phd:
     - name: "Laurinda Moraes"
       topic: "Fibrados vetoriais de posto 3 em esquemas projetivos"
@@ -13,7 +13,7 @@ current:
     - name: "Gabriel Braga"
       topic: "Propriedades de Lefschetz em álgebras artinianas"
       since: 2025
-    - name: "Bruno Wellington Moreira"   # Lattes grafa "Wellinton" na orientação e "Wellington" na banca: verificar
+    - name: "Bruno Wellington Moreira"   # grafia confirmada: Wellington
       topic: "Mônadas lineares em espaços super projetivos"
       since: 2025
       co_advisor: "Ugo Bruzzo"
@@ -36,7 +36,7 @@ completed:
     - name: "Gabriel Braga"
       title: "Propriedade Fraca de Lefschetz em Álgebras Artinianas Interseção Completa de Codimensão 3"
       year: 2024
-    - name: "Wendell H. C. Claudino"     # Lattes também grafa "Claudinho": verificar
+    - name: "Wendell H. C. Claudino"     # grafia confirmada: Claudino
       title: "Representações de grupos finitos e o passeio aleatório no grupo simétrico"
       year: 2024
     - name: "Leonardo Silva de Oliveira"

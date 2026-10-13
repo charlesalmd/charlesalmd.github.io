@@ -8,11 +8,12 @@ photo_fallback: "/assets/img/charles.jpg"
 
 position:
   pt: "Professor Adjunto, Departamento de Matemática, ICEx, UFMG (desde 2019)"
-  en: "Professor of Mathematics (Professor Adjunto), Department of Mathematics, ICEx, UFMG (since 2019)"
+  en: "Tenured Assistant Professor (Professor Adjunto), Department of Mathematics, ICEx, UFMG (since 2019)"
 
 contact:
   email: "charlesalmeida@mat.ufmg.br"
   office: "4093"
+  phone: ""   # nao publicar ate confirmar: Lattes diz (31) 3409-5956, diretorio do PPG diz (31) 3409-5969
   address_pt: ["Departamento de Matemática, ICEx", "Universidade Federal de Minas Gerais", "Av. Antônio Carlos, 6627, Pampulha", "31270-901 Belo Horizonte, MG, Brasil"]
 
 ids:
@@ -56,3 +57,8 @@ olympiad_history:   # opcional, Charles decide se entra na página de Extensão
   - {year: "2006 a 2008", pt: "Menções honrosas, OBMEP"}
 
 languages: ["Português", "Inglês", "Espanhol", "Italiano (leitura)"]
+
+funding_and_visits:    # aparece so em /research/ (e em /events/ como "upcoming"), sem destaque, nunca na home
+  - {years: "2024 a hoje", en: "CNPq research grant: Geometry of moduli spaces of vector bundles"}
+  - {years: "2022 a hoje", en: "FAPEMIG research grant: Lefschetz properties and moduli spaces of vector bundles"}
+  - {years: "Jan to Feb 2027", en: "CIMPA-ICTP Research in Pairs, Milan", upcoming: true}
