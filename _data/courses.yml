@@ -1,0 +1,184 @@
+# Disciplinas, a partir do inventário do Google Sites (migracao/inventario.csv) e da página
+# Ensino/Teaching antiga. Mais recentes primeiro. Páginas só em português (/pt/ensino/...).
+#
+# semestre: como aparece no site ("2026/2", "Verão 2026").
+# codigo, nivel, turma: só o que o site antigo informa; vazio quando não informa (TODO).
+# nivel: graduação | mestrado | doutorado | verão
+# pasta: pasta com os PDFs migrados; vazia quando a disciplina não tem arquivos
+#        (essas entram só como linha em Teaching, sem página própria).
+# atual: aparece como disciplina corrente.
+
+- semestre: "2026/2"
+  codigo: "MAT213"
+  nome: "Álgebra Linear II"
+  nivel: "graduação"
+  turma: "TM2"
+  pasta: "pt/ensino/2026-2/mat213"
+  atual: true
+
+- semestre: "2026/2"
+  codigo: ""          # TODO
+  nome: "Fundamentos de Espaços de Móduli em Geometria Algébrica"   # título dos slides
+  nivel: "doutorado"
+  turma: ""
+  pasta: "pt/ensino/2026-2/fundamentos-de-espacos-de-moduli"
+  atual: true
+
+- semestre: "2026/1"
+  codigo: "MAT001"
+  nome: "Cálculo 1"
+  nivel: "graduação"
+  turma: "TM e TN"
+  pasta: "pt/ensino/2026-1/mat001-tm-tn"
+
+- semestre: "Verão 2026"
+  codigo: "MA719/MM719"
+  nome: "Álgebra Linear Avançada"
+  instituicao: "UNICAMP"
+  nivel: "verão"
+  turma: ""
+  pasta: "pt/ensino/2026-verao"
+
+- semestre: "2025/2"
+  codigo: ""          # TODO
+  nome: "Geometria Algébrica"
+  nivel: "doutorado"
+  turma: ""
+  pasta: ""
+
+- semestre: "2025/2"
+  codigo: ""          # TODO
+  nome: "Introdução à Geometria Algébrica"
+  nivel: "graduação"
+  turma: ""
+  pasta: ""
+
+- semestre: "2025/1"
+  codigo: ""          # TODO
+  nome: "Variedades Homogêneas"
+  nivel: ""           # TODO
+  turma: ""
+  pasta: ""
+
+- semestre: "2025/1"
+  codigo: ""          # TODO
+  nome: "Grupos e Corpos"
+  nivel: ""           # TODO
+  turma: ""
+  pasta: "pt/ensino/2025-1/grupos-e-corpos"
+
+- semestre: "Verão 2024"
+  codigo: "MA719/MM719"
+  nome: "Álgebra Linear Avançada"
+  instituicao: "UNICAMP"
+  nivel: "verão"
+  turma: ""
+  pasta: "pt/ensino/2024-verao"
+
+- semestre: "2023/2"
+  codigo: ""          # TODO
+  nome: "Cohomologia de Feixes"
+  nivel: ""           # TODO
+  turma: ""
+  pasta: ""
+
+- semestre: "2023/2"
+  codigo: ""          # TODO
+  nome: "Geometria Projetiva e Aplicações"
+  nivel: ""           # TODO
+  turma: ""
+  pasta: ""
+
+- semestre: "2023/1"
+  codigo: "MAT001"
+  nome: "Cálculo 1"
+  nivel: "graduação"
+  turma: "TM"
+  pasta: "pt/ensino/2023-1/mat001-tm"
+
+- semestre: "2023/1"
+  codigo: ""          # TODO
+  nome: "Álgebra Comutativa"
+  nivel: ""           # TODO
+  turma: ""
+  pasta: "pt/ensino/2023-1/algebra-comutativa"
+
+- semestre: "2022/2"
+  codigo: "MAT045"
+  nome: "Resolução de Problemas Matemáticos"
+  nivel: "graduação"
+  turma: ""
+  pasta: "pt/ensino/2022-2/mat045-resolucao-de-problemas"
+
+- semestre: "2022/2"
+  codigo: "MAT001"
+  nome: "Cálculo 1"
+  nivel: "graduação"
+  turma: "TM2 e TN2"
+  pasta: "pt/ensino/2022-2/mat001-tm2-tn2"
+
+- semestre: "2022/1"
+  codigo: "MAT001"
+  nome: "Cálculo 1"
+  nivel: "graduação"
+  turma: "TM2 e TN2"
+  pasta: ""
+
+- semestre: "2022/1"
+  codigo: ""          # TODO
+  nome: "Seminários de Geometria Algébrica"
+  nivel: ""           # TODO
+  turma: ""
+  pasta: ""
+
+# 2021/2: a página antiga tem uma linha ambígua ("(2/2021) (2/2020) GAAL TA1, GAAL TM1"); ver PENDENCIAS.md.
+
+- semestre: "2021/1"
+  codigo: ""          # GAAL: código UFMG não informado no site antigo (TODO)
+  nome: "Geometria Analítica e Álgebra Linear (GAAL)"
+  nivel: "graduação"
+  turma: "TA1"
+  pasta: ""
+
+- semestre: "2021/1"
+  codigo: ""          # TODO
+  nome: "Álgebra Avançada"
+  nivel: "mestrado"
+  turma: ""
+  pasta: "pt/ensino/2021-1/algebra-avancada-mestrado"
+
+- semestre: "2020/2"
+  codigo: ""
+  nome: "Geometria Analítica e Álgebra Linear (GAAL)"
+  nivel: "graduação"
+  turma: "TM4"
+  pasta: ""
+
+- semestre: "2020/2"
+  codigo: ""
+  nome: "Geometria Analítica e Álgebra Linear (GAAL)"
+  nivel: "graduação"
+  turma: "TN2"
+  pasta: ""
+
+- semestre: "2020/1"
+  codigo: ""
+  nome: "Geometria Analítica e Álgebra Linear (GAAL)"
+  nivel: "graduação"
+  turma: "TA3"
+  pasta: ""           # o único arquivo foi eliminado e o outro deu 404
+
+- semestre: "2020/1"
+  codigo: ""
+  nome: "Geometria Analítica e Álgebra Linear (GAAL)"
+  nivel: "graduação"
+  turma: "TD1"
+  pasta: ""
+
+- semestre: "Verão 2020"
+  codigo: ""
+  nome: "Ações de grupos em álgebras de polinômios e problemas de classificação"
+  nota: "Micro-curso Jovens Algebristas"   # como no site antigo
+  nivel: "verão"
+  turma: ""
+  pasta: "pt/ensino/2020-verao/micro-curso-jovens-algebristas"
