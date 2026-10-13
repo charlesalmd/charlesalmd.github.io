@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{%- comment -%}
+  Página de disciplina (só em português). Os dados vêm de courses.yml, pela pasta da página;
+  o corpo é o conteúdo migrado do site antigo, sem reescrita.
+{%- endcomment -%}
+{%- assign pasta = page.url | remove_first: "/" | split: "/" | join: "/" -%}
+{%- assign c = site.data.courses | where: "pasta", pasta | first -%}
+{%- assign t = site.data.i18n.pt -%}
+<main id="conteudo" class="pagina">
+  <div class="wrap">
+    <header class="pagina-topo">
+      <p class="trilha"><a href="{{ '/pt/ensino/' | relative_url }}">Ensino</a></p>
+      <h1>{% if c.codigo != "" %}{{ c.codigo }} {% endif %}{{ c.nome }}</h1>
+      <p class="pagina-sub">{{ c.semestre }}{% if c.turma != "" %}, turma {{ c.turma }}{% endif %}{% if c.nivel != "" %}, {{ t.level[c.nivel] | downcase }}{% endif %}{% if c.instituicao %}, {{ c.instituicao }}{% endif %}{% if c.nota %}. {{ c.nota }}{% endif %}.</p>
+    </header>
+    <div class="texto disciplina">
+      {{ content }}
+    </div>
+  </div>
+</main>

@@ -28,7 +28,7 @@
   codigo: "MAT001"
   nome: "Cálculo 1"
   nivel: "graduação"
-  turma: "TM e TN"
+  turma: "TM1 e TN4"   # título da página da disciplina; a lista antiga dizia "TM e TN"
   pasta: "pt/ensino/2026-1/mat001-tm-tn"
 
 - semestre: "Verão 2026"
@@ -37,7 +37,7 @@
   instituicao: "UNICAMP"
   nivel: "verão"
   turma: ""
-  pasta: "pt/ensino/2026-verao"
+  pasta: "pt/ensino/2026-verao/ma719-algebra-linear-avancada"
 
 - semestre: "2025/2"
   codigo: ""          # TODO
@@ -73,7 +73,7 @@
   instituicao: "UNICAMP"
   nivel: "verão"
   turma: ""
-  pasta: "pt/ensino/2024-verao"
+  pasta: "pt/ensino/2024-verao/ma719-algebra-linear-avancada"
 
 - semestre: "2023/2"
   codigo: ""          # TODO

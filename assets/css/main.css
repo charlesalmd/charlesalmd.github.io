@@ -149,3 +149,8 @@ footer li{margin:0 0 .35rem}
   .pubs li{grid-template-columns:3.4rem 1fr;gap:.7rem}
   .convite{padding:1.1rem 1.2rem}
 }
+
+/* paginas de disciplina */
+.trilha{font-family:var(--display);font-size:.95rem;margin:0 0 .6rem}
+.disciplina p{margin:0 0 .7rem}
+.disciplina strong{font-weight:600}

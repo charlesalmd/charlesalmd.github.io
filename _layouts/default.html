@@ -2,18 +2,30 @@
 {%- if page.ref -%}
   {%- assign versoes = site.pages | where: "ref", page.ref -%}
   {%- assign alt = versoes | where_exp: "p", "p.lang != page.lang" | first -%}
+{%- elsif page.alt_ref -%}
+  {%- comment -%} Sem versão equivalente (ex.: disciplinas, só em português): o botão leva à lista no outro idioma. {%- endcomment -%}
+  {%- assign versoes = site.pages | where: "ref", page.alt_ref -%}
+  {%- assign alt = versoes | where_exp: "p", "p.lang != page.lang" | first -%}
+  {%- assign sem_hreflang = true -%}
 {%- endif -%}
 <!doctype html>
 <html lang="{{ t.html_lang }}" class="sem-js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{% if page.title %}{{ page.title }}, {% endif %}Charles Almeida</title>
+{%- if page.layout == "disciplina" -%}
+  {%- assign pasta_d = page.url | remove_first: "/" | split: "/" | join: "/" -%}
+  {%- assign c_d = site.data.courses | where: "pasta", pasta_d | first -%}
+  {%- capture titulo -%}{% if c_d.codigo != "" %}{{ c_d.codigo }} {% endif %}{{ c_d.nome }}, {{ c_d.semestre }}{%- endcapture -%}
+{%- else -%}
+  {%- assign titulo = page.title -%}
+{%- endif %}
+<title>{% if titulo and titulo != "" %}{{ titulo }}, {% endif %}Charles Almeida</title>
 {%- if page.description %}
 <meta name="description" content="{{ page.description }}">
 {%- endif %}
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-{%- if alt %}
+{%- if alt and sem_hreflang != true %}
 <link rel="alternate" hreflang="{{ t.html_lang }}" href="{{ page.url | absolute_url }}">
 <link rel="alternate" hreflang="{{ t.other_lang_html }}" href="{{ alt.url | absolute_url }}">
 {%- endif %}

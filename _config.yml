@@ -18,6 +18,8 @@ defaults:
     values: {layout: pagina, lang: en}
   - scope: {path: "pt"}
     values: {lang: pt}
+  - scope: {path: "pt/ensino"}
+    values: {lang: pt, alt_ref: teaching}
 
 exclude:
   - CLAUDE.md
