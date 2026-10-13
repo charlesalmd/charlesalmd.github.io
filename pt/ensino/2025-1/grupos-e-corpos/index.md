@@ -61,9 +61,9 @@ Saunders College Publ.
 
 A partir da sexta semana usaremos o livro:<strong> Galois Theory de David Cox </strong>como referência. É possível emprestar o livro na biblioteca do ICEx.
 
-<strong>Exercícios sugeridos:</strong>
+<strong>Exercícios sugeridos:
 
-<strong>Seção 4.1 </strong>1,2,3,4,5,8
+Seção 4.1 </strong>1,2,3,4,5,8
 
 <strong>Seção 4.2 </strong>1,2,4,5,8
 
