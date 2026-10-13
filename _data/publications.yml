@@ -13,7 +13,7 @@
   arxiv: "2609.32668"   # submetido em 26/09/2026; incluído a pedido do Charles
 
 - title: "Embedding theorems as a bridge between supertraces and supergeometry"
-  authors: ["Charles Almeida", "C. F. Bezerra Júnior", "L. Centrone"]   # Centrone confirmado por Charles; arXiv grafa "Claudemir Fideles"
+  authors: ["Charles Almeida", "Claudemir Fidelis", "L. Centrone"]   # Centrone e Claudemir Fidelis confirmados por Charles (o Lattes trazia "C. F. Bezerra Júnior")
   journal: "Advances in Theoretical and Mathematical Physics"
   year: 2026
   status: accepted
@@ -21,7 +21,7 @@
   arxiv: "2506.20395"   # título confere
 
 - title: "On supertrace embeddings: radical theory, Gelfand-Kirillov dimension, and Morita equivalence"
-  authors: ["Charles Almeida", "C. F. Bezerra Júnior", "L. Centrone"]
+  authors: ["Charles Almeida", "Claudemir Fidelis", "L. Centrone"]
   journal: ""
   year: 2026
   status: preprint

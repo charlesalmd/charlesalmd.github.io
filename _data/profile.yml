@@ -49,7 +49,7 @@ positions:
   - {years: "2024", years_en: "2024", pt: "Pesquisador visitante (pós-doutorado), SISSA, Trieste", en: "Visiting researcher (postdoc), SISSA, Trieste"}
   - {years: "2019", years_en: "2019", pt: "Pós-doutorado, IME-USP", en: "Postdoc, IME-USP"}
 
-service:
+service:   # nao aparece no site (decisao do Charles, 13/10/2026); fica so como registro
   - {since: "03/2023", pt: "Subcoordenador do colegiado de graduação em Matemática", en: "Deputy coordinator of the undergraduate program committee in Mathematics"}   # EN: tradução, revisar
   - {since: "04/2022", pt: "Representante dos docentes não titulares na Câmara do Departamento de Matemática", en: "Representative of the non-full professors on the Council (Câmara) of the Department of Mathematics"}   # EN: tradução, revisar
   - {pt: "Revisor: European Journal of Mathematics; zbMATH", en: "Reviewer: European Journal of Mathematics; zbMATH"}
@@ -82,7 +82,7 @@ olympiad_history:   # entra na página de Extensão, sem destaque (decisão do C
 languages: ["Português", "Inglês", "Espanhol", "Italiano (leitura)"]
 languages_en: ["Portuguese", "English", "Spanish", "Italian (reading)"]
 
-funding_and_visits:    # aparece so em /research/ (e em /events/ como "upcoming"), sem destaque, nunca na home
+funding_and_visits:    # nao aparece no site (decisao do Charles, 13/10/2026); fica so como registro
   - {years: "2024 a hoje", years_en: "2024 to present", en: "CNPq research grant: Geometry of moduli spaces of vector bundles"}
   - {years: "2022 a hoje", years_en: "2022 to present", en: "FAPEMIG research grant: Lefschetz properties and moduli spaces of vector bundles"}
   - {years: "Jan to Feb 2027", years_en: "January to February 2027", en: "CIMPA-ICTP Research in Pairs, Milan", upcoming: true}

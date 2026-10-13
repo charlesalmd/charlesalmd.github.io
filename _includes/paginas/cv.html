@@ -18,12 +18,6 @@
   {%- endfor %}
 </ol>
 
-<h2>{{ t.service }}</h2>
-<ul class="discreta">
-  {%- for c in p.service %}
-  <li><span class="quando-linha">{% if c.since %}{{ t.since }} {{ c.since }}{% endif %}</span> {{ c[lang] }}</li>
-  {%- endfor %}
-</ul>
 
 <h2>{{ t.languages }}</h2>
 <p>{% if lang == "en" %}{{ p.languages_en | join: ", " }}{% else %}{{ p.languages | join: ", " }}{% endif %}.</p>
