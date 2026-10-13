@@ -15,14 +15,25 @@ hero:
   en: "Tenured Assistant Professor (Professor Adjunto), Department of Mathematics, UFMG. Algebraic geometry: moduli spaces of sheaves, vector bundles, Lefschetz properties and supergeometry."
   pt: "Professor Adjunto, Departamento de Matemática, UFMG. Geometria algébrica: espaços de moduli de feixes, fibrados vetoriais, propriedades de Lefschetz e supergeometria."
 
-# Resumo de pesquisa (home e /research/). EN: protótipo atual. PT: protótipo anterior.
+# Resumo de pesquisa (home e /research/). Textos do Charles (13/10/2026).
 research_summary:
   en:
-    - "I study the global geometry of moduli spaces of sheaves on projective varieties: their irreducible components, their geometry and decomposition phenomena, and how they interact with Lefschetz properties."
-    - "More recently I have extended this to algebraic supergeometry, studying bundles and moduli spaces on supermanifolds."
+    - "My research program investigates the geometry of moduli spaces of sheaves on projective varieties, with an emphasis on their global structure, including the description of irreducible components, their geometry, and decomposition phenomena."
+    - "A central part of my work consists of constructing and identifying new irreducible components of moduli spaces, as well as understanding their geometric properties and associated invariants, exploring interactions with Lefschetz-type properties and related algebraic structures."
+    - "More recently, I have been extending this line of research to the setting of algebraic supergeometry, studying vector bundles and moduli spaces on supervarieties, with the aim of establishing geometric foundations and new structural correspondences in this context, including connections with motivations from theoretical physics."
   pt:
-    - "Estudo a geometria global de espaços de moduli de feixes em variedades projetivas: componentes irredutíveis, sua geometria e seus invariantes, e as conexões com propriedades de Lefschetz."
-    - "Mais recentemente, levo essas perguntas para a supergeometria algébrica, estudando fibrados e espaços de moduli em supervariedades."
+    - "Meu programa de pesquisa investiga a geometria de espaços de moduli de feixes em variedades projetivas, com ênfase na estrutura global desses espaços, incluindo a descrição de componentes irredutíveis, sua geometria e fenômenos de decomposição."
+    - "Parte central do meu trabalho consiste em construir e identificar novos componentes irredutíveis de espaços de moduli e compreender suas propriedades geométricas e invariantes associados, explorando interações com propriedades de Lefschetz e estruturas algébricas relacionadas."
+    - "Mais recentemente, tenho expandido essa linha de pesquisa para o contexto da supergeometria algébrica, estudando fibrados e espaços de moduli em supervariedades, com o objetivo de estabelecer fundamentos geométricos e novas correspondências estruturais nesse cenário, incluindo conexões com motivações oriundas da física teórica."
+
+# Sobre mim (home). Textos do Charles (13/10/2026); meia-risca trocada por "a"/"to" e hífen.
+about:
+  en:
+    - "I obtained my Bachelor's degree (2010 to 2014) and Ph.D. (2014 to 2019) in Mathematics from UNICAMP (Campinas-Brazil), including a visiting Ph.D. period at the Universitat de Barcelona (Barcelona-Spain)."
+    - "I was a postdoctoral researcher at IME-USP (São Paulo-Brazil) in 2019."
+    - "From 2024 to 2025, I was on sabbatical leave at SISSA (Trieste-Italy)."
+  pt:
+    - "Obtive meu bacharelado (2010 a 2014) e doutorado direto (2014 a 2019) em Matemática pela UNICAMP, com período de doutorado sanduíche na Universitat de Barcelona (Barcelona-Espanha). Realizei pós-doutorado no IME-USP em 2019. Entre 2024 e 2025, fui pesquisador visitante na SISSA (Trieste-Itália)."   # original: "Entre 2024, fui"; completado com 2025 conforme o texto em inglês (verificar)
 
 contact:
   email: "charlesalmeida@mat.ufmg.br"

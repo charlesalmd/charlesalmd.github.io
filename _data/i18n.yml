@@ -18,6 +18,7 @@ en:
     - {label: "CV", url: "/cv/"}
   email: "Email"
   research: "Research"
+  about: "About me"
   selected_work: "Selected work"
   all_publications: "All publications"
   students: "Students"
@@ -83,6 +84,7 @@ pt:
     - {label: "CV", url: "/pt/cv/"}
   email: "E-mail"
   research: "Pesquisa"
+  about: "Sobre mim"
   selected_work: "Trabalhos selecionados"
   all_publications: "Todas as publicações"
   students: "Orientação"

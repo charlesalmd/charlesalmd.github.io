@@ -44,6 +44,19 @@ layout: default
     </div>
   </section>
 
+  <section id="about" aria-labelledby="titulo-about">
+    <div class="wrap cols">
+      <div>
+        <h2 id="titulo-about">{{ t.about }}</h2>
+      </div>
+      <div class="lead">
+        {%- for paragrafo in p.about[page.lang] %}
+        <p>{{ paragrafo }}</p>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+
   <section id="students" aria-labelledby="titulo-students">
     <div class="wrap cols">
       <div>
