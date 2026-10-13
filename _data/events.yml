@@ -8,6 +8,13 @@ organized:
     dates_en: "November 30 to December 4"
     place: "UFMG, Belo Horizonte"
     url: "https://folgaufmg.github.io"
+  - name: "IV Jornadas Brasileiras em Propriedades de Lefschetz"   # nome conforme o site das Jornadas LP
+    name_en: "IV Brazilian Workshop on Lefschetz Properties"        # como estava em to_confirm
+    year: 2026
+    dates: "28/09 a 02/10/2026"
+    dates_en: "September 28 to October 2"
+    place: "Salvador, Bahia"
+    url: "https://jornadaslp.github.io/jornadas-lp/"
   - name: "IX Bandoleros / IX Workshop on Vector Bundles and Applications"
     year: 2025
   - name: "III Jornada Brasileira em Propriedades de Lefschetz"
@@ -15,6 +22,7 @@ organized:
     year: 2025
     url: "https://jornadaslp.github.io/jornadas-lp/"
   - name: "II Jornada Brasileira em Propriedades de Lefschetz"
+    name_en: "II Brazilian Workshop on Lefschetz Properties"   # por analogia com a III; revisar
     year: 2024
     url: "https://jornadaslp.github.io/jornadas-lp/"
   - name: "Geometry in Algebra, Algebra in Geometry"
@@ -23,10 +31,4 @@ organized:
     year: 2022
 
 upcoming_visits:       # so na pagina de eventos, sem destaque
-  - {when_en: "January to February 2027", en: "CIMPA-ICTP Research in Pairs, Milan"}
-
-to_confirm:
-  - name: "IV Brazilian Workshop on Lefschetz Properties"
-    dates: "28/09 a 02/10/2026"
-    place: "Salvador"
-    note: "Charles organizou? Confirmar nome oficial antes de listar."
+  - {when_en: "January to February 2027", en: "CIMPA-ICTP Research in Pairs, Milan", when_pt: "Janeiro a fevereiro de 2027", pt: "CIMPA-ICTP Research in Pairs, Milão"}

@@ -27,7 +27,7 @@ research_summary:
 contact:
   email: "charlesalmeida@mat.ufmg.br"
   office: "4093"
-  phone: ""   # nao publicar ate confirmar: Lattes diz (31) 3409-5956, diretorio do PPG diz (31) 3409-5969
+  phone: "(31) 3409-5956"   # confirmado por Charles em 13/10/2026
   address_pt: ["Departamento de Matemática, ICEx", "Universidade Federal de Minas Gerais", "Av. Antônio Carlos, 6627, Pampulha", "31270-901 Belo Horizonte, MG, Brasil"]
 
 ids:
@@ -41,38 +41,48 @@ ids:
   zbmath: "TODO"
 
 education:
-  - {years: "2014 a 2019", pt: "Doutorado em Matemática, UNICAMP, orientação de Marcos Jardim; doutorado sanduíche na Universitat de Barcelona com Rosa Maria Miró-Roig", en: "PhD in Mathematics, UNICAMP, advised by Marcos Jardim; sandwich period at Universitat de Barcelona with Rosa Maria Miró-Roig"}
-  - {years: "2010 a 2014", pt: "Bacharelado em Matemática, UNICAMP", en: "BSc in Mathematics, UNICAMP"}
+  - {years: "2014 a 2019", years_en: "2014 to 2019", pt: "Doutorado em Matemática, UNICAMP, orientação de Marcos Jardim; doutorado sanduíche na Universitat de Barcelona com Rosa Maria Miró-Roig", en: "PhD in Mathematics, UNICAMP, advised by Marcos Jardim; sandwich period at Universitat de Barcelona with Rosa Maria Miró-Roig"}
+  - {years: "2010 a 2014", years_en: "2010 to 2014", pt: "Bacharelado em Matemática, UNICAMP", en: "BSc in Mathematics, UNICAMP"}
 
 positions:
-  - {years: "2019 até hoje", pt: "Professor Adjunto, UFMG", en: "Professor Adjunto, UFMG"}
-  - {years: "2024", pt: "Pesquisador visitante (pós-doutorado), SISSA, Trieste", en: "Visiting researcher (postdoc), SISSA, Trieste"}
-  - {years: "2019", pt: "Pós-doutorado, IME-USP", en: "Postdoc, IME-USP"}
+  - {years: "2019 até hoje", years_en: "2019 to present", pt: "Professor Adjunto, UFMG", en: "Tenured Assistant Professor (Professor Adjunto), UFMG"}
+  - {years: "2024", years_en: "2024", pt: "Pesquisador visitante (pós-doutorado), SISSA, Trieste", en: "Visiting researcher (postdoc), SISSA, Trieste"}
+  - {years: "2019", years_en: "2019", pt: "Pós-doutorado, IME-USP", en: "Postdoc, IME-USP"}
 
 service:
-  - {since: "03/2023", pt: "Subcoordenador do colegiado de graduação em Matemática"}
-  - {since: "04/2022", pt: "Representante dos docentes não titulares na Câmara do Departamento de Matemática"}
-  - {pt: "Revisor: European Journal of Mathematics; zbMATH"}
+  - {since: "03/2023", pt: "Subcoordenador do colegiado de graduação em Matemática", en: "Deputy coordinator of the undergraduate program committee in Mathematics"}   # EN: tradução, revisar
+  - {since: "04/2022", pt: "Representante dos docentes não titulares na Câmara do Departamento de Matemática", en: "Representative of the non-full professors on the Council (Câmara) of the Department of Mathematics"}   # EN: tradução, revisar
+  - {pt: "Revisor: European Journal of Mathematics; zbMATH", en: "Reviewer: European Journal of Mathematics; zbMATH"}
 
 outreach:
   - name_pt: "PIC/OBMEP, Região MG01"
+    name_en: "PIC/OBMEP, Region MG01"
     role_pt: "Coordenador acadêmico"
+    role_en: "Academic coordinator"
     since: 2026
-    note_pt: "Cerca de 400 alunos em 29 municípios de Minas Gerais"   # Charles confirma se publica o número
+    note_pt: "Cerca de 400 alunos em 29 municípios de Minas Gerais"   # confirmado por Charles para publicar
+    note_en: "About 400 students in 29 municipalities of Minas Gerais"
   - name_pt: "Projeto Olimpo"
+    name_en: "Projeto Olimpo"
     role_pt: "Fundador e coordenador"
+    role_en: "Founder and coordinator"
     since: 2020
     note_pt: "Treinamento para olimpíadas científicas para alunos de escolas públicas"
-  - name_pt: "Professor do POTI (Polo Olímpico de Treinamento Intensivo)"
-    years: "2015, 2018"
+    note_en: "Training for science olympiads for public school students"
+  - name_pt: "POTI (Polo Olímpico de Treinamento Intensivo)"
+    name_en: "POTI (Polo Olímpico de Treinamento Intensivo, Intensive Olympiad Training Center)"
+    role_pt: "Professor"
+    role_en: "Instructor"
+    years: "2015, 2018"   # antes: name_pt "Professor do POTI (...)"; separado em nome e papel
 
-olympiad_history:   # opcional, Charles decide se entra na página de Extensão
-  - {year: 2009, pt: "Medalha de bronze, OBMEP"}
-  - {year: "2006 a 2008", pt: "Menções honrosas, OBMEP"}
+olympiad_history:   # entra na página de Extensão, sem destaque (decisão do Charles)
+  - {year: 2009, pt: "Medalha de bronze, OBMEP", en: "Bronze medal, OBMEP"}
+  - {year: "2006 a 2008", year_en: "2006 to 2008", pt: "Menções honrosas, OBMEP", en: "Honorable mentions, OBMEP"}
 
 languages: ["Português", "Inglês", "Espanhol", "Italiano (leitura)"]
+languages_en: ["Portuguese", "English", "Spanish", "Italian (reading)"]
 
 funding_and_visits:    # aparece so em /research/ (e em /events/ como "upcoming"), sem destaque, nunca na home
-  - {years: "2024 a hoje", en: "CNPq research grant: Geometry of moduli spaces of vector bundles"}
-  - {years: "2022 a hoje", en: "FAPEMIG research grant: Lefschetz properties and moduli spaces of vector bundles"}
-  - {years: "Jan to Feb 2027", en: "CIMPA-ICTP Research in Pairs, Milan", upcoming: true}
+  - {years: "2024 a hoje", years_en: "2024 to present", en: "CNPq research grant: Geometry of moduli spaces of vector bundles"}
+  - {years: "2022 a hoje", years_en: "2022 to present", en: "FAPEMIG research grant: Lefschetz properties and moduli spaces of vector bundles"}
+  - {years: "Jan to Feb 2027", years_en: "January to February 2027", en: "CIMPA-ICTP Research in Pairs, Milan", upcoming: true}
