@@ -1,0 +1,3 @@
+{%- comment -%} Orientação concluída: ano, nome e título (no idioma original). Parâmetros: a, t. {%- endcomment -%}
+{%- assign a = include.a -%}
+<li><span class="ano">{{ a.year }}</span><div><p class="titulo">{{ a.name }}</p><p class="ref" lang="pt-BR">{{ a.title }}{% if a.role == "coorientador" %} ({{ include.t.co_advised }}){% endif %}</p></div></li>

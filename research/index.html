@@ -1,0 +1,60 @@
+---
+title: Research
+lang: en
+ref: research
+description: "Research and publications of Charles Almeida: moduli spaces of sheaves, vector bundles, Lefschetz properties and supergeometry."
+---
+{%- assign t = site.data.i18n.en -%}
+{%- assign p = site.data.profile -%}
+{%- assign pubs = site.data.publications -%}
+{%- assign selecionados = pubs | where: "selected", true -%}
+{%- assign preprints = pubs | where: "status", "preprint" -%}
+{%- assign aceitos = pubs | where: "status", "accepted" -%}
+{%- assign publicados = pubs | where: "status", "published" -%}
+{%- assign tese = site.data.thesis -%}
+<div class="lead">
+  {%- for paragrafo in p.research_summary.en %}
+  <p>{{ paragrafo }}</p>
+  {%- endfor %}
+</div>
+
+<h2>{{ t.selected_work }}</h2>
+<ol class="pubs">
+  {%- for pub in selecionados limit: 3 %}
+  {% include pub.html pub=pub t=t completo=true %}
+  {%- endfor %}
+</ol>
+
+<h2>{{ t.publications }}</h2>
+{%- if preprints.size > 0 %}
+<h3>{{ t.preprints }}</h3>
+<ol class="pubs">
+  {%- for pub in preprints %}
+  {% include pub.html pub=pub t=t completo=true %}
+  {%- endfor %}
+</ol>
+{%- endif %}
+{%- if aceitos.size > 0 %}
+<h3>{{ t.accepted }}</h3>
+<ol class="pubs">
+  {%- for pub in aceitos %}
+  {% include pub.html pub=pub t=t completo=true %}
+  {%- endfor %}
+</ol>
+{%- endif %}
+<h3>{{ t.published }}</h3>
+<ol class="pubs">
+  {%- for pub in publicados %}
+  {% include pub.html pub=pub t=t completo=true %}
+  {%- endfor %}
+</ol>
+
+<h2>{{ t.funding }}</h2>
+<ul class="discreta">
+  {%- for f in p.funding_and_visits %}
+  <li><span class="quando-linha">{{ f.years_en }}</span> {{ f.en }}</li>
+  {%- endfor %}
+</ul>
+
+<h2>{{ t.thesis }}</h2>
+<p><i>{{ tese.title }}</i>. {{ t.thesis_ref }}, {{ tese.institution }}, {{ tese.year }}. {{ t.advisor }}: {{ tese.advisor }}. {{ tese.note }}.</p>

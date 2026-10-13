@@ -125,8 +125,24 @@ footer li{margin:0 0 .35rem}
 .texto{max-width:44rem}
 .texto h2{margin-top:3rem}
 .texto h2:first-child{margin-top:0}
-.texto ul,.texto ol{padding-left:1.2rem}
-.texto li{margin:0 0 .4rem}
+.texto h3{margin:2rem 0 .6rem;color:var(--grafite)}
+.texto h2+h3{margin-top:.6rem}
+.texto .pubs{padding-left:0;margin:0 0 1rem}
+.texto .pubs li{margin:0}
+.texto .alunos{padding-left:0;margin-bottom:1.2rem}
+.texto .alunos li{margin:0}
+.texto .convite{margin:0 0 3rem}
+.texto .lead p,.lead-cv{font-size:1.22rem;line-height:1.55;margin:0 0 1rem}
+.texto .nivel{margin-top:1.4rem}
+
+/* listas discretas: financiamento, visitas, servico, historico */
+.discreta{list-style:none;padding:0;margin:0 0 1rem;color:var(--cinza);font-size:1.05rem}
+.discreta li{display:grid;grid-template-columns:12rem 1fr;gap:1rem;padding:.5rem 0;border-bottom:1px solid var(--regua);margin:0}
+
+.quando-linha{font-family:var(--display);font-size:.92rem;font-variant-numeric:tabular-nums;padding-top:.12rem}
+.h-discreto{font-size:1.25rem;color:var(--cinza)}
+.texto .mais{margin-top:2.5rem}
+@media (max-width:600px){.discreta li{grid-template-columns:1fr;gap:.1rem}}
 
 @media (max-width:420px){
   .wrap{width:min(1120px,100% - 2rem)}

@@ -1,0 +1,49 @@
+{%- comment -%} Página de orientação (EN /students/, PT /pt/orientacao/). Parâmetro: lang. {%- endcomment -%}
+{%- assign lang = include.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign s = site.data.students -%}
+<div class="convite">
+  {%- for paragrafo in s.recruiting[lang] %}
+  <p>{{ paragrafo }}</p>
+  {%- endfor %}
+</div>
+
+<h2>{{ t.current }}</h2>
+<p class="nivel">{{ t.postdoc }}</p>
+<ul class="alunos">
+  {%- for a in s.current.postdoc %}
+  {% include aluno.html aluno=a t=t lang=lang %}
+  {%- endfor %}
+</ul>
+<p class="nivel">{{ t.phd_students }}</p>
+<ul class="alunos">
+  {%- for a in s.current.phd %}
+  {% include aluno.html aluno=a t=t lang=lang %}
+  {%- endfor %}
+</ul>
+<p class="nivel">{{ t.masters_students }}</p>
+<ul class="alunos">
+  {%- for a in s.current.masters %}
+  {% include aluno.html aluno=a t=t lang=lang %}
+  {%- endfor %}
+</ul>
+
+<h2 id="former">{{ t.completed }}</h2>
+<h3>{{ t.completed_phd }}</h3>
+<ol class="pubs">
+  {%- for a in s.completed.phd %}
+  {% include concluido.html a=a t=t %}
+  {%- endfor %}
+</ol>
+<h3>{{ t.completed_masters }}</h3>
+<ol class="pubs">
+  {%- for a in s.completed.masters %}
+  {% include concluido.html a=a t=t %}
+  {%- endfor %}
+</ol>
+<h3>{{ t.undergrad_research }}</h3>
+<ol class="pubs">
+  {%- for a in s.completed.undergraduate_research %}
+  {% include concluido.html a=a t=t %}
+  {%- endfor %}
+</ol>

@@ -1,0 +1,25 @@
+{%- comment -%} Página de eventos (EN /events/, PT /pt/eventos/). Só eventos organizados. Parâmetro: lang. {%- endcomment -%}
+{%- assign lang = include.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign ev = site.data.events -%}
+<h2>{{ t.organized }}</h2>
+<ol class="pubs">
+  {%- for e in ev.organized %}
+  {%- if lang == "en" and e.name_en %}{% assign nome = e.name_en %}{% else %}{% assign nome = e.name %}{% endif %}
+  {%- if lang == "en" and e.dates_en %}{% assign datas = e.dates_en %}{% else %}{% assign datas = e.dates %}{% endif %}
+  <li><span class="ano">{{ e.year }}</span><div><p class="titulo">{% if e.url %}<a href="{{ e.url }}">{{ nome }}</a>{% else %}{{ nome }}{% endif %}</p>{% if e.place %}<p class="ref">{{ e.place }}, {{ datas }}.</p>{% endif %}</div></li>
+  {%- endfor %}
+</ol>
+
+{%- if ev.upcoming_visits.size > 0 %}
+<h2>{{ t.upcoming }}</h2>
+<ul class="discreta">
+  {%- for v in ev.upcoming_visits %}
+  {%- if lang == "en" %}
+  <li><span class="quando-linha">{{ v.when_en }}</span> {{ v.en }}</li>
+  {%- else %}
+  <li><span class="quando-linha">{{ v.when_pt }}</span> {{ v.pt }}</li>
+  {%- endif %}
+  {%- endfor %}
+</ul>
+{%- endif %}

@@ -1,0 +1,31 @@
+{%- comment -%} Página de CV (EN /cv/, PT /pt/cv/). Parâmetro: lang. {%- endcomment -%}
+{%- assign lang = include.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign p = site.data.profile -%}
+<p class="lead-cv">{{ p.position[lang] }}</p>
+
+<h2>{{ t.positions }}</h2>
+<ol class="pubs">
+  {%- for c in p.positions %}
+  <li><span class="ano">{% if lang == "en" %}{{ c.years_en }}{% else %}{{ c.years }}{% endif %}</span><div><p class="titulo">{{ c[lang] }}</p></div></li>
+  {%- endfor %}
+</ol>
+
+<h2>{{ t.education }}</h2>
+<ol class="pubs">
+  {%- for c in p.education %}
+  <li><span class="ano">{% if lang == "en" %}{{ c.years_en }}{% else %}{{ c.years }}{% endif %}</span><div><p class="titulo">{{ c[lang] }}</p></div></li>
+  {%- endfor %}
+</ol>
+
+<h2>{{ t.service }}</h2>
+<ul class="discreta">
+  {%- for c in p.service %}
+  <li><span class="quando-linha">{% if c.since %}{{ t.since }} {{ c.since }}{% endif %}</span> {{ c[lang] }}</li>
+  {%- endfor %}
+</ul>
+
+<h2>{{ t.languages }}</h2>
+<p>{% if lang == "en" %}{{ p.languages_en | join: ", " }}{% else %}{{ p.languages | join: ", " }}{% endif %}.</p>
+
+<p class="mais">{{ t.full_cv }} <a href="{{ p.ids.lattes }}">Lattes</a>.</p>

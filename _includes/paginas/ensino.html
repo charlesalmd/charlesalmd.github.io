@@ -1,0 +1,22 @@
+{%- comment -%}
+  Lista de disciplinas (EN /teaching/, PT /pt/ensino/), agrupada por semestre, a partir de courses.yml.
+  Etapa 4a: só a lista, sem links; as páginas das disciplinas entram na etapa 4b.
+{%- endcomment -%}
+{%- assign lang = include.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign grupos = site.data.courses | group_by: "semestre" -%}
+{%- if t.teaching_note != "" %}
+<p class="lead-cv">{{ t.teaching_note }}</p>
+{%- endif %}
+<ol class="pubs">
+  {%- for g in grupos %}
+  {%- assign sem = g.name %}
+  {%- if lang == "en" %}{% assign sem = sem | replace: "Verão", "Summer" %}{% endif %}
+  <li><span class="ano">{{ sem }}</span><div>
+    {%- for c in g.items %}
+    <p class="titulo" lang="pt-BR">{% if c.codigo != "" %}{{ c.codigo }} {% endif %}{{ c.nome }}{% if c.turma != "" %}, {{ c.turma }}{% endif %}</p>
+    <p class="ref">{% if c.nivel != "" %}{{ t.level[c.nivel] }}{% endif %}{% if c.instituicao %}{% if c.nivel != "" %}, {% endif %}{{ c.instituicao }}{% endif %}{% if c.nota %}{% if c.nivel != "" or c.instituicao %}. {% endif %}<span lang="pt-BR">{{ c.nota }}</span>{% endif %}</p>
+    {%- endfor %}
+  </div></li>
+  {%- endfor %}
+</ol>

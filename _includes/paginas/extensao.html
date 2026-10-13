@@ -1,0 +1,21 @@
+{%- comment -%} Página de extensão (EN /outreach/, PT /pt/extensao/). Parâmetro: lang. {%- endcomment -%}
+{%- assign lang = include.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign p = site.data.profile -%}
+<ol class="pubs">
+  {%- for o in p.outreach %}
+  {%- if lang == "en" %}{% assign nome = o.name_en %}{% assign papel = o.role_en %}{% assign nota = o.note_en %}{% else %}{% assign nome = o.name_pt %}{% assign papel = o.role_pt %}{% assign nota = o.note_pt %}{% endif %}
+  <li><span class="ano">{% if o.since %}{{ o.since }}{% else %}{{ o.years }}{% endif %}</span><div><p class="titulo">{{ nome }}</p><p class="ref">{{ papel }}{% if o.since %}, {{ t.since }} {{ o.since }}{% endif %}.{% if nota %} {{ nota }}.{% endif %}</p></div></li>
+  {%- endfor %}
+</ol>
+
+<h2 class="h-discreto">{{ t.olympiad }}</h2>
+<ul class="discreta">
+  {%- for h in p.olympiad_history %}
+  {%- if lang == "en" %}
+  <li><span class="quando-linha">{% if h.year_en %}{{ h.year_en }}{% else %}{{ h.year }}{% endif %}</span> {{ h.en }}</li>
+  {%- else %}
+  <li><span class="quando-linha">{{ h.year }}</span> {{ h.pt }}</li>
+  {%- endif %}
+  {%- endfor %}
+</ul>
