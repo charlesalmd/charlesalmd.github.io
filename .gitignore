@@ -3,3 +3,9 @@ _site/
 .jekyll-cache/
 vendor/
 .bundle/
+
+# arquivos internos da migração: ficam só na máquina do Charles
+CLAUDE.md
+PENDENCIAS.md
+revisao-traducoes.md
+migracao/
