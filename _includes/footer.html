@@ -1,0 +1,26 @@
+{%- assign t = include.t -%}
+{%- assign p = site.data.profile -%}
+<footer>
+  <div class="wrap">
+    <div>
+      <h2 class="rodape-titulo">{{ p.name }}</h2>
+      {%- for linha in t.address %}
+      <p>{{ linha }}</p>
+      {%- endfor %}
+    </div>
+    <div>
+      <h2 class="rodape-titulo">{{ t.contact }}</h2>
+      <ul>
+        <li><a href="mailto:{{ p.contact.email }}">{{ p.contact.email }}</a></li>
+        <li>{{ t.room }} {{ p.contact.office }}</li>
+        {%- if p.contact.phone != "" %}
+        <li>{{ p.contact.phone }}</li>
+        {%- endif %}
+      </ul>
+    </div>
+    <div>
+      <h2 class="rodape-titulo">{{ t.profiles }}</h2>
+      {% include perfis.html classe="" %}
+    </div>
+  </div>
+</footer>

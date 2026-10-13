@@ -1,0 +1,32 @@
+title: "Charles Almeida"
+url: "https://charlesalmd.github.io"
+baseurl: ""
+
+# Inglês na raiz, português em /pt/. Cada página declara `lang` e `ref`;
+# páginas com o mesmo `ref` são versões uma da outra (seletor de idioma e hreflang).
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: null
+
+permalink: pretty
+
+defaults:
+  - scope: {path: ""}
+    values: {layout: pagina, lang: en}
+  - scope: {path: "pt"}
+    values: {lang: pt}
+
+exclude:
+  - CLAUDE.md
+  - PENDENCIAS.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - migracao/
+  - design/
+  - vendor/
+  - .bundle/
+  - .github/

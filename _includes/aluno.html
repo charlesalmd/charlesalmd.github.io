@@ -1,0 +1,8 @@
+{%- comment -%}
+  Um orientando atual. Parâmetros: aluno (item de students.yml), t, lang.
+{%- endcomment -%}
+{%- assign a = include.aluno -%}
+{%- if include.lang == "en" and a.topic_en -%}{%- assign tema = a.topic_en -%}{%- else -%}{%- assign tema = a.topic -%}{%- endif -%}
+<li><b>{{ a.name }}</b><span>{{ tema }}
+  {%- if a.institution or a.role == "coorientador" %} ({% if a.institution %}{{ a.institution }}{% endif %}{% if a.institution and a.role == "coorientador" %}, {% endif %}{% if a.role == "coorientador" %}{{ include.t.co_advised }}{% endif %}){% endif -%}
+</span></li>

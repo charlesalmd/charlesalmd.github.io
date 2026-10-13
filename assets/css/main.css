@@ -1,0 +1,135 @@
+/* Charles Almeida: estilos do site.
+   Base: design/prototipo-home.html (tokens, home). Acréscimos ao fim: menu móvel,
+   link de pular, páginas internas. */
+:root{
+  --tinta:#1E2B4D;      /* indigo: hero e rodape */
+  --tinta-2:#2A3A63;
+  --papel:#FCFCFA;      /* fundo do conteudo */
+  --grafite:#232733;    /* texto */
+  --cinza:#5E6577;      /* texto secundario */
+  --regua:#DADDE3;      /* linhas finas */
+  --buganvilia:#C2306B; /* acento, usado com parcimonia */
+  --azul-claro:#A9BCE0; /* retas sobre o indigo */
+  --display:"Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --texto:"Newsreader", Georgia, "Times New Roman", serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--papel);color:var(--grafite);font-family:var(--texto);font-size:1.1875rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration-color:color-mix(in srgb,var(--buganvilia) 55%,transparent);text-underline-offset:.18em;text-decoration-thickness:1px}
+a:hover{text-decoration-color:var(--buganvilia)}
+:focus-visible{outline:2px solid var(--buganvilia);outline-offset:3px;border-radius:2px}
+img{max-width:100%;display:block}
+.wrap{width:min(1120px,100% - 3rem);margin-inline:auto}
+
+/* cabecalho */
+.top{background:var(--tinta);color:#fff}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:1.1rem 0}
+.marca{font-family:var(--display);font-weight:600;font-size:1.05rem;letter-spacing:.01em;text-decoration:none}
+.nav{display:flex;gap:1.6rem;font-family:var(--display);font-size:.98rem}
+.nav a{text-decoration:none;opacity:.82}
+.nav a:hover{opacity:1}
+.lang{font-family:var(--display);font-size:.9rem;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:.2rem .7rem;text-decoration:none}
+
+/* hero */
+.hero{background:var(--tinta);color:#fff;overflow:hidden;position:relative}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:2rem;min-height:520px;padding:2rem 0 3.5rem}
+.hero h1{font-family:var(--display);font-weight:500;font-size:clamp(2.8rem,6.4vw,5.4rem);line-height:.98;letter-spacing:-.025em;margin:0 0 1.4rem}
+.hero .sobre{font-size:1.28rem;line-height:1.55;max-width:36ch;color:#E4E9F4;margin:0 0 2rem}
+.ids{display:flex;flex-wrap:wrap;gap:.6rem;padding:0;margin:0;list-style:none;font-family:var(--display);font-size:.95rem}
+.ids a{display:inline-block;padding:.38rem .9rem;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);text-decoration:none}
+.ids a:hover{background:rgba(255,255,255,.16)}
+.retrato{position:relative;aspect-ratio:1;width:100%;max-width:520px;justify-self:center}
+.retrato svg{position:absolute;inset:-30%;width:160%;height:160%;overflow:visible;-webkit-mask-image:radial-gradient(circle at 50% 50%,#000 30%,transparent 62%);mask-image:radial-gradient(circle at 50% 50%,#000 30%,transparent 62%)}
+.retrato line{stroke:var(--azul-claro);stroke-width:.7;opacity:.42;stroke-dasharray:1;stroke-dashoffset:0}
+.retrato line.a{stroke:var(--buganvilia);opacity:.95;stroke-width:1.1}
+.retrato img{position:absolute;left:22%;top:22%;width:56%;height:56%;border-radius:50%;object-fit:cover;box-shadow:0 0 0 6px var(--tinta)}
+@media (prefers-reduced-motion:no-preference){
+  .retrato line{stroke-dashoffset:1;animation:traco 1.6s cubic-bezier(.3,.6,.2,1) forwards;animation-delay:calc(var(--i) * 18ms)}
+  @keyframes traco{to{stroke-dashoffset:0}}
+}
+
+/* conteudo */
+main section{padding:4.5rem 0;border-top:1px solid var(--regua)}
+main section:first-child{border-top:0}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:3rem 4rem}
+h2{font-family:var(--display);font-weight:500;font-size:2.1rem;letter-spacing:-.015em;line-height:1.1;margin:0 0 1rem}
+h3{font-family:var(--display);font-weight:500;font-size:1.15rem;margin:0 0 .8rem}
+.lead p{margin:0 0 1rem;max-width:46ch}
+.mais{font-family:var(--display);font-size:1rem;font-weight:500}
+
+.pubs{list-style:none;margin:0;padding:0}
+.pubs li{display:grid;grid-template-columns:4.2rem 1fr;gap:1rem;padding:1.05rem 0;border-bottom:1px solid var(--regua)}
+.pubs li:first-child{padding-top:.2rem}
+.ano{font-family:var(--display);font-size:.95rem;color:var(--cinza);padding-top:.15rem;font-variant-numeric:tabular-nums}
+.titulo{font-size:1.2rem;line-height:1.35;margin:0 0 .25rem}
+.ref{color:var(--cinza);font-size:1rem;margin:0}
+.ref i{color:var(--grafite)}
+
+.alunos{list-style:none;margin:0 0 2rem;padding:0}
+.alunos li{padding:.6rem 0;border-bottom:1px solid var(--regua)}
+.alunos b{font-weight:500}
+.alunos span{display:block;color:var(--cinza);font-size:1rem}
+.nivel{font-family:var(--display);font-size:.95rem;color:var(--cinza);margin:1.6rem 0 .3rem}
+.nivel:first-child{margin-top:0}
+.convite{background:#fff;border:1px solid var(--regua);border-left:3px solid var(--buganvilia);padding:1.4rem 1.6rem;border-radius:4px}
+.convite p{margin:0 0 .7rem}.convite p:last-child{margin:0}
+
+.agora{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2.5rem}
+.agora .quando{font-family:var(--display);font-size:.95rem;color:var(--buganvilia);margin:0 0 .4rem}
+.agora p{margin:0 0 .5rem;font-size:1.08rem}
+
+/* rodape */
+footer{background:var(--tinta);color:#D9E0EE;font-size:1rem}
+footer .wrap{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:2rem;padding:3.2rem 0}
+footer h3,footer .rodape-titulo{color:#fff;font-family:var(--display);font-weight:500;font-size:1rem;margin:0 0 .8rem}
+footer p{margin:0 0 .35rem}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{margin:0 0 .35rem}
+
+@media (max-width:900px){
+  .nav{display:none}
+  .hero .wrap{grid-template-columns:1fr;min-height:0;padding-top:1rem}
+  .retrato{order:-1;max-width:360px}
+  .cols,.agora,footer .wrap{grid-template-columns:1fr}
+  .cols{gap:2rem}
+  main section{padding:3.2rem 0}
+}
+
+/* acessibilidade */
+.pular{position:absolute;left:1rem;top:-3rem;z-index:10;background:#fff;color:var(--tinta);font-family:var(--display);padding:.5rem .9rem;border-radius:4px}
+.pular:focus{top:.6rem}
+.nav a[aria-current="page"]{opacity:1;text-decoration:underline;text-decoration-color:var(--buganvilia);text-underline-offset:.35em}
+.top a:focus-visible,.hero a:focus-visible,footer a:focus-visible,.menu-botao:focus-visible{outline-color:#fff}
+
+/* menu movel: escondido acima de 900px; sem JS o menu aparece empilhado */
+.menu-botao{display:none;font:inherit;font-family:var(--display);font-size:.95rem;color:#fff;background:transparent;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:.25rem .9rem;cursor:pointer}
+@media (max-width:900px){
+  .top .wrap{flex-wrap:wrap;gap:.8rem 1rem}
+  .marca{margin-right:auto}
+  .nav{display:flex;order:3;flex-basis:100%;flex-direction:column;gap:0;padding:.4rem 0 .2rem}
+  .nav a{padding:.55rem 0;border-top:1px solid rgba(255,255,255,.12);opacity:.9}
+  .com-js .menu-botao{display:inline-block}
+  .com-js .nav{display:none}
+  .com-js .nav.aberto{display:flex}
+}
+
+/* paginas internas */
+.pagina{padding:3.5rem 0 4.5rem}
+.pagina-topo{margin:0 0 2.5rem;padding-bottom:1.5rem;border-bottom:1px solid var(--regua)}
+.pagina h1{font-family:var(--display);font-weight:500;font-size:clamp(2.2rem,4.5vw,3.2rem);letter-spacing:-.02em;line-height:1.05;margin:0}
+.pagina-sub{color:var(--cinza);margin:.6rem 0 0}
+.texto{max-width:44rem}
+.texto h2{margin-top:3rem}
+.texto h2:first-child{margin-top:0}
+.texto ul,.texto ol{padding-left:1.2rem}
+.texto li{margin:0 0 .4rem}
+
+@media (max-width:420px){
+  .wrap{width:min(1120px,100% - 2rem)}
+  .pubs li{grid-template-columns:3.4rem 1fr;gap:.7rem}
+  .convite{padding:1.1rem 1.2rem}
+}

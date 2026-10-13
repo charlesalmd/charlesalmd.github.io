@@ -1,0 +1,15 @@
+{%- assign t = include.t -%}
+<header class="top">
+  <div class="wrap">
+    <a class="marca" href="{{ t.home | relative_url }}">Charles Almeida</a>
+    <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu-principal">{{ t.menu }}</button>
+    <nav class="nav" id="menu-principal" aria-label="{{ t.nav_label }}">
+      {%- for item in t.nav %}
+      <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endfor %}
+    </nav>
+    {%- if include.alt %}
+    <a class="lang" href="{{ include.alt.url | relative_url }}" hreflang="{{ t.other_lang_html }}" lang="{{ t.other_lang_html }}">{{ t.other_lang_name }}</a>
+    {%- endif %}
+  </div>
+</header>

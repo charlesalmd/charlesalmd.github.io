@@ -1,0 +1,90 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign p = site.data.profile -%}
+{%- assign s = site.data.students -%}
+{%- assign selecionados = site.data.publications | where: "selected", true -%}
+{%- assign eventos = site.data.events.organized -%}
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Charles<br>Almeida</h1>
+      <p class="sobre">{{ p.hero[page.lang] }}</p>
+      {% include perfis.html classe="ids" email=t.email %}
+    </div>
+    <div class="retrato">
+      {% include envoltoria.svg %}
+      <picture>
+        <source srcset="{{ p.photo | relative_url }}" type="image/webp">
+        <img src="{{ p.photo_fallback | relative_url }}" alt="{{ t.photo_alt }}" width="800" height="800">
+      </picture>
+    </div>
+  </div>
+</div>
+
+<main id="conteudo">
+  <section id="research" aria-labelledby="titulo-research">
+    <div class="wrap cols">
+      <div class="lead">
+        <h2 id="titulo-research">{{ t.research }}</h2>
+        {%- for paragrafo in p.research_summary[page.lang] %}
+        <p>{{ paragrafo }}</p>
+        {%- endfor %}
+        <p class="mais"><a href="{{ '/research/' | relative_url }}">{{ t.all_publications }}</a></p>
+      </div>
+      <div>
+        <h3>{{ t.selected_work }}</h3>
+        <ol class="pubs">
+          {%- for pub in selecionados limit: 3 %}
+          {% include pub.html pub=pub t=t %}
+          {%- endfor %}
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="students" aria-labelledby="titulo-students">
+    <div class="wrap cols">
+      <div>
+        <h2 id="titulo-students">{{ t.students }}</h2>
+        <div class="convite">
+          {%- for paragrafo in s.recruiting[page.lang] %}
+          <p>{{ paragrafo }}</p>
+          {%- endfor %}
+        </div>
+      </div>
+      <div>
+        <p class="nivel">{{ t.postdoc }}</p>
+        <ul class="alunos">
+          {%- for a in s.current.postdoc %}
+          {% include aluno.html aluno=a t=t lang=page.lang %}
+          {%- endfor %}
+        </ul>
+        <p class="nivel">{{ t.phd_students }}</p>
+        <ul class="alunos">
+          {%- for a in s.current.phd %}
+          {% include aluno.html aluno=a t=t lang=page.lang %}
+          {%- endfor %}
+        </ul>
+        <p class="mais"><a href="{{ t.nav[1].url | relative_url }}">{{ t.former_students }}</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" aria-labelledby="titulo-events">
+    <div class="wrap cols">
+      <div>
+        <h2 id="titulo-events">{{ t.events }}</h2>
+        <p class="mais"><a href="{{ t.nav[3].url | relative_url }}">{{ t.all_events }}</a></p>
+      </div>
+      <ol class="pubs">
+        {%- for e in eventos limit: 3 %}
+        {%- if page.lang == "en" and e.name_en %}{% assign nome = e.name_en %}{% else %}{% assign nome = e.name %}{% endif %}
+        {%- if page.lang == "en" and e.dates_en %}{% assign datas = e.dates_en %}{% else %}{% assign datas = e.dates %}{% endif %}
+        <li><span class="ano">{{ e.year }}</span><div><p class="titulo">{% if e.url %}<a href="{{ e.url }}">{{ nome }}</a>{% else %}{{ nome }}{% endif %}</p><p class="ref">{% if e.place %}{{ e.place }}, {{ datas }}. {% endif %}{{ t.organizer }}</p></div></li>
+        {%- endfor %}
+      </ol>
+    </div>
+  </section>
+</main>

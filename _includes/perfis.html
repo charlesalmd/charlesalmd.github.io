@@ -1,0 +1,10 @@
+{%- assign ids = site.data.profile.ids -%}
+<ul{% if include.classe != "" %} class="{{ include.classe }}"{% endif %}>
+  {%- if include.email %}
+  <li><a href="mailto:{{ site.data.profile.contact.email }}">{{ include.email }}</a></li>
+  {%- endif %}
+  <li><a href="{{ ids.lattes }}">Lattes</a></li>
+  <li><a href="{{ ids.orcid }}">ORCID</a></li>
+  <li><a href="{{ ids.google_scholar }}">Google Scholar</a></li>
+  <li><a href="{{ ids.math_genealogy }}">Math Genealogy</a></li>
+</ul>

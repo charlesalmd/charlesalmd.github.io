@@ -1,0 +1,26 @@
+{%- comment -%}
+  Uma publicação. Parâmetros: pub (item de publications.yml), t (textos de i18n).
+  Coautores: todos os autores menos o próprio Charles.
+  A referência é montada em partes e unida com espaço, para o Liquid não comer espaços.
+{%- endcomment -%}
+{%- assign pub = include.pub -%}
+{%- assign t = include.t -%}
+{%- assign coautores = pub.authors | where_exp: "a", "a != site.data.profile.name" -%}
+{%- assign partes = "" | split: "" -%}
+{%- if coautores.size > 0 -%}
+  {%- capture c -%}{{ t.with }} {% for a in coautores %}{% if forloop.last and forloop.length > 1 %} {{ t.and }} {% elsif forloop.index > 1 %}, {% endif %}{{ a }}{% endfor %}.{%- endcapture -%}
+  {%- assign partes = partes | push: c -%}
+{%- endif -%}
+{%- if pub.journal != "" -%}
+  {%- capture c -%}<i>{{ pub.journal }}</i>{% if pub.volume and pub.volume != "" %} {{ pub.volume }}{% endif %}{% if pub.status == "accepted" %}, {{ t.to_appear }}{% endif %}.{%- endcapture -%}
+  {%- assign partes = partes | push: c -%}
+{%- endif -%}
+{%- if pub.doi and pub.doi != "" -%}
+  {%- capture c -%}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{%- endcapture -%}
+  {%- assign partes = partes | push: c -%}
+{%- endif -%}
+{%- if pub.arxiv and pub.arxiv != "" -%}
+  {%- capture c -%}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{%- endcapture -%}
+  {%- assign partes = partes | push: c -%}
+{%- endif -%}
+<li><span class="ano">{{ pub.year }}</span><div><p class="titulo">{{ pub.title }}</p><p class="ref">{{ partes | join: " " }}</p></div></li>
