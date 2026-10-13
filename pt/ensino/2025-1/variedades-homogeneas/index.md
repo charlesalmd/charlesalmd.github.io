@@ -3,7 +3,7 @@ layout: disciplina
 lang: pt
 ---
 
-<strong>Objetvo:</strong>  Este curso conecta tópicos  em geometria algébrica e teoria de Lie  com o objetivo de apresentar o teorema de Borel-Weil-Bott (BWB). A proposta será usar conceitos fundamentais de geometria algébrica e teoria de grupos algébricos com ferramentas avançadas da teoria de Lie, explorando a interação entre geometria e álgebra,  utilizando os textos Linear Algebraic Groups de J.E. Humphreys e Classical Lie Algebras at Infinity de Hoyt e Penkov. O curso busca solidificar a compreensão de conceitos  de teoria de representações, especialmente de álgebras de Lie, e de geometria algébrica, com o objetivo de estabelecer uma conexão entre os dois assuntos.
+<strong>Objetivo:</strong>  Este curso conecta tópicos  em geometria algébrica e teoria de Lie  com o objetivo de apresentar o teorema de Borel-Weil-Bott (BWB). A proposta será usar conceitos fundamentais de geometria algébrica e teoria de grupos algébricos com ferramentas avançadas da teoria de Lie, explorando a interação entre geometria e álgebra,  utilizando os textos Linear Algebraic Groups de J.E. Humphreys e Classical Lie Algebras at Infinity de Hoyt e Penkov. O curso busca solidificar a compreensão de conceitos  de teoria de representações, especialmente de álgebras de Lie, e de geometria algébrica, com o objetivo de estabelecer uma conexão entre os dois assuntos.
 
 Horário: Ter-Qui 13:00-15:00
 

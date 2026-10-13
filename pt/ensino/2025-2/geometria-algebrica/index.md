@@ -3,7 +3,7 @@ layout: disciplina
 lang: pt
 ---
 
-<strong>Objetvo:</strong>  O objetivo deste curso é dar uma introdução à teoria de feixes e cohomologia de feixes sobre variedades algébricas. O material a ser coberto é essencialmente aquele contido nos dois primeiros capítulos da primeira referência com suporte do material correspondente da segunda referência. Feixes em espaços anelados, morfismos de feixes, feixes de módulos, feixes coerentes. Subvariedades e feixes de ideais. Feixes localmente livre e fibrados vetoriais. Feixes reflexivos e sem torção. Divisores e feixes inversíveis.
+<strong>Objetivo:</strong>  O objetivo deste curso é dar uma introdução à teoria de feixes e cohomologia de feixes sobre variedades algébricas. O material a ser coberto é essencialmente aquele contido nos dois primeiros capítulos da primeira referência com suporte do material correspondente da segunda referência. Feixes em espaços anelados, morfismos de feixes, feixes de módulos, feixes coerentes. Subvariedades e feixes de ideais. Feixes localmente livre e fibrados vetoriais. Feixes reflexivos e sem torção. Divisores e feixes inversíveis.
 
 Horário: Ter-Qui 9:30-11:30
 
@@ -28,7 +28,7 @@ Horário: Ter-Qui 9:30-11:30
 <strong>Seção 7:<br>
 </strong>7.1, 7.2, 7.6
 
-<strong>Capíulo 2</strong>
+<strong>Capítulo 2</strong>
 
 <strong>Seção 1:<br>
 </strong>1.1, 1.2, 1.3, 1.5, 1.6, 1.7, 1.8, 1.14, 1.15, 1.17, 1.18, 1.21, 1.22

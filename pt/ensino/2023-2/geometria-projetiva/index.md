@@ -31,4 +31,4 @@ As técnicas da geometria projetiva, em especial as coordenadas homogêneas, sã
 
 <strong>2) Geometria Proyectiva, </strong>E. Arrondo, U. Complutense de Madrid, notas de aula.
 
-<strong>3) Foundations of projective Geometry, </strong>R. Hartshone, Springer, 1967.
+<strong>3) Foundations of projective Geometry, </strong>R. Hartshorne, Springer, 1967.

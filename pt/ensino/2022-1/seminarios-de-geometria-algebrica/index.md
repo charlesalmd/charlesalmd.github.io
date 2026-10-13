@@ -17,4 +17,4 @@ Bibliografia:
 
 (2) R. Hartshorne, Algebraic geometry, Grad. Texts in Math., vol. 52, Springer-Verlag, New York-Heidelberg 1977, xvi+496 pp.
 
-(3)Ch. Okonek, M. Schneider and H. Spindler, Vector bundles on complex projective spaces, Progr. Math., vol. 3, Birkh¨auser, Boston, Mass. 1980, vii+389 pp.
+(3)Ch. Okonek, M. Schneider and H. Spindler, Vector bundles on complex projective spaces, Progr. Math., vol. 3, Birkhäuser, Boston, Mass. 1980, vii+389 pp.
