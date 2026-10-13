@@ -1,4 +1,6 @@
 # SOMENTE eventos organizados por Charles. Palestras NAO entram no site (decisao do Charles).
+# name_en: eventos com nome oficial em português mantêm esse nome, com uma explicação em inglês
+# entre parênteses (decisão do Charles). Eventos com nome oficial em inglês não precisam de name_en.
 
 organized:
   - name: "Symposium on Supergeometry, Algebraic Geometry and Foliations (FOLGA)"
@@ -9,7 +11,7 @@ organized:
     place: "UFMG, Belo Horizonte"
     url: "https://folgaufmg.github.io"
   - name: "IV Jornadas Brasileiras em Propriedades de Lefschetz"   # nome conforme o site das Jornadas LP
-    name_en: "IV Brazilian Workshop on Lefschetz Properties"        # como estava em to_confirm
+    name_en: "IV Jornadas Brasileiras em Propriedades de Lefschetz (Brazilian Workshop on Lefschetz Properties)"
     year: 2026
     dates: "28/09 a 02/10/2026"
     dates_en: "September 28 to October 2"
@@ -18,16 +20,17 @@ organized:
   - name: "IX Bandoleros / IX Workshop on Vector Bundles and Applications"
     year: 2025
   - name: "III Jornada Brasileira em Propriedades de Lefschetz"
-    name_en: "III Brazilian Workshop on Lefschetz Properties"
+    name_en: "III Jornada Brasileira em Propriedades de Lefschetz (Brazilian Workshop on Lefschetz Properties)"
     year: 2025
     url: "https://jornadaslp.github.io/jornadas-lp/"
   - name: "II Jornada Brasileira em Propriedades de Lefschetz"
-    name_en: "II Brazilian Workshop on Lefschetz Properties"   # por analogia com a III; revisar
+    name_en: "II Jornada Brasileira em Propriedades de Lefschetz (Brazilian Workshop on Lefschetz Properties)"
     year: 2024
     url: "https://jornadaslp.github.io/jornadas-lp/"
   - name: "Geometry in Algebra, Algebra in Geometry"
     year: 2023
   - name: "Jovens Perspectivas em Geometria Algébrica"
+    name_en: "Jovens Perspectivas em Geometria Algébrica (Young Perspectives in Algebraic Geometry)"
     year: 2022
 
 upcoming_visits:       # so na pagina de eventos, sem destaque

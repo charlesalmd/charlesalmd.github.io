@@ -22,6 +22,7 @@ defaults:
 exclude:
   - CLAUDE.md
   - PENDENCIAS.md
+  - revisao-traducoes.md
   - README.md
   - Gemfile
   - Gemfile.lock

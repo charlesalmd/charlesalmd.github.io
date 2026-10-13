@@ -13,7 +13,7 @@
   arxiv: "2609.32668"   # submetido em 26/09/2026; incluído a pedido do Charles
 
 - title: "Embedding theorems as a bridge between supertraces and supergeometry"
-  authors: ["Charles Almeida", "C. F. Bezerra Júnior", "L. Centroni"]   # verificar: arXiv grafa "Lucio Centrone" e "Claudemir Fideles"
+  authors: ["Charles Almeida", "C. F. Bezerra Júnior", "L. Centrone"]   # Centrone confirmado por Charles; arXiv grafa "Claudemir Fideles"
   journal: "Advances in Theoretical and Mathematical Physics"
   year: 2026
   status: accepted
@@ -21,12 +21,24 @@
   arxiv: "2506.20395"   # título confere
 
 - title: "On supertrace embeddings: radical theory, Gelfand-Kirillov dimension, and Morita equivalence"
-  authors: ["Charles Almeida", "C. F. Bezerra Júnior", "L. Centroni"]
+  authors: ["Charles Almeida", "C. F. Bezerra Júnior", "L. Centrone"]
   journal: ""
   year: 2026
   status: preprint
   doi: ""
-  arxiv: ""   # verificar: o site antigo lista "Superring extensions and fixed subalgebra structures, submitted (2026)"
+  arxiv: ""   # título do Lattes; confirmado por Charles como o único título deste trabalho
+
+- title: "On higher Jacobians, Laplace equations, and Lefschetz properties"
+  authors: ["Charles Almeida", "Aline V. Andrade", "Rodrigo Gondim"]
+  journal: "Bulletin of the London Mathematical Society"
+  year: 2026        # fascículo de janeiro de 2026 (decisão do Charles; o Lattes dizia 2025)
+  selected: true
+  status: published
+  volume: "58"
+  issue: "1"
+  pages: ""         # sem páginas e sem DOI, por decisão do Charles
+  doi: ""
+  arxiv: "2311.02178"
 
 - title: "Splitting of supervector bundles on projective superspaces"
   authors: ["Charles Almeida", "Ugo Bruzzo"]
@@ -38,18 +50,6 @@
   pages: "2543-2554"
   doi: "10.1007/s10231-025-01581-0"
   arxiv: "2501.10765"
-
-- title: "On higher Jacobians, Laplace equations, and Lefschetz properties"
-  authors: ["Charles Almeida", "Aline V. Andrade", "Rodrigo Gondim"]
-  journal: "Bulletin of the London Mathematical Society"
-  year: 2025        # verificar: Crossref e o site antigo datam o fascículo de 2026 (58(1), jan 2026)
-  selected: true
-  status: published # Crossref: v. 58, n. 1, artigo e70208
-  volume: "58"
-  issue: "1"
-  pages: "e70208"
-  doi: "10.1112/blms.70208"
-  arxiv: "2311.02178"
 
 - title: "A generalization of Cayley-Hamilton algebras and an introduction to their geometries"
   authors: ["Charles Almeida", "Claudemir Fidelis", "José Lucas Galdino"]
@@ -81,7 +81,7 @@
   status: published
   volume: "212"
   issue: "11"
-  pages: "1503-1552"   # Crossref (versão inglesa); o Lattes e o site antigo trazem 3-54 (paginação do Mat. Sb. em russo)
+  pages: "1503-1552"   # paginação da edição em inglês (Crossref); 3 a 54 é a paginação da edição russa (Mat. Sb.), que o Lattes traz
   doi: "10.1070/sm9490"
   arxiv: "1702.06520"
 
