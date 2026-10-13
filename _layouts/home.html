@@ -17,7 +17,7 @@ layout: default
       {% include envoltoria.svg %}
       <picture>
         <source srcset="{{ p.photo | relative_url }}" type="image/webp">
-        <img src="{{ p.photo_fallback | relative_url }}" alt="{{ t.photo_alt }}" width="800" height="800">
+        <img src="{{ p.photo_fallback | relative_url }}" alt="{{ t.photo_alt }}" width="800" height="800" fetchpriority="high">
       </picture>
     </div>
   </div>
