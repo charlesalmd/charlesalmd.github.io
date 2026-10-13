@@ -17,4 +17,4 @@ Horário: Ter-Qui 15:00.
 
 4 - Vakil, R. - The Rising Sea: Foundations of Algebraic Geometry, http://math.stanford.edu/~vakil/.
 
-5- [Andrade, A. V.](https://www.posmatematica.ufv.br/pt/wp-content/uploads/2018/01/Disserta%C3%A7%C3%A3o-Aline-Vilela-Andrade.pdf) TEORIA DE AUSLANDER-REITEN EM CATEGORIAS DERIVADAS (Bom texto para categorias)
+5- [Andrade, A. V.](https://locus.ufv.br/items/6891755c-31f1-48ea-8abe-30185d65f862) TEORIA DE AUSLANDER-REITEN EM CATEGORIAS DERIVADAS (Bom texto para categorias)
