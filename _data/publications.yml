@@ -1,0 +1,108 @@
+# Publicações de Charles Almeida, extraídas do Lattes (atualizado em 16/07/2026).
+# status: published | accepted | preprint
+# doi e arxiv: o Claude Code deve preencher via Crossref e arXiv e marcar "verificar" quando não achar.
+# Exibição: só em inglês (página /en/research/).
+
+- title: "Embedding theorems as a bridge between supertraces and supergeometry"
+  authors: ["Charles Almeida", "C. F. Bezerra Júnior", "L. Centroni"]
+  journal: "Advances in Theoretical and Mathematical Physics"
+  year: 2026
+  status: accepted
+  doi: ""
+  arxiv: ""
+
+- title: "On supertrace embeddings: radical theory, Gelfand-Kirillov dimension, and Morita equivalence"
+  authors: ["Charles Almeida", "C. F. Bezerra Júnior", "L. Centroni"]
+  journal: ""
+  year: 2026
+  status: preprint
+  doi: ""
+  arxiv: ""
+
+- title: "Splitting of supervector bundles on projective superspaces"
+  authors: ["Charles Almeida", "Ugo Bruzzo"]
+  journal: "Annali di Matematica Pura ed Applicata"
+  year: 2025
+  status: published
+  volume: ""        # verificar: o Lattes traz volume e páginas corrompidos
+  pages: ""
+  doi: ""
+  arxiv: ""
+
+- title: "On higher Jacobians, Laplace equations, and Lefschetz properties"
+  authors: ["Charles Almeida", "Aline V. Andrade", "Rodrigo Gondim"]
+  journal: "Bulletin of the London Mathematical Society"
+  year: 2025
+  status: published
+  volume: ""        # Lattes: "TBA"
+  pages: ""
+  doi: ""
+  arxiv: ""
+
+- title: "A generalization of Cayley-Hamilton algebras and an introduction to their geometries"
+  authors: ["Charles Almeida", "Claudemir Fidelis", "José Lucas Galdino"]
+  journal: "Israel Journal of Mathematics"
+  year: 2024
+  status: published
+  volume: ""        # Lattes: "TBD"
+  pages: ""
+  doi: ""
+  arxiv: ""
+
+- title: "Irreducible components of the moduli space of rank 2 sheaves of odd determinant on projective space"
+  authors: ["Charles Almeida", "Marcos Jardim", "Alexander S. Tikhomirov"]
+  journal: "Advances in Mathematics"
+  year: 2022
+  status: published
+  volume: "402"
+  pages: "108363"
+  doi: ""
+  arxiv: ""
+
+- title: "New moduli components of rank 2 bundles on projective space"
+  authors: ["Charles Almeida", "Marcos Jardim", "Alexander S. Tikhomirov", "Sergey A. Tikhomirov"]
+  journal: "Sbornik: Mathematics"
+  year: 2021
+  status: published
+  volume: "212"
+  pages: "3-54"     # verificar
+  doi: ""
+  arxiv: ""
+
+- title: "The spectrum of torsion free sheaves on P3 and applications"
+  authors: ["Charles Almeida"]
+  journal: "Matemática Contemporânea"
+  year: 2020
+  status: published
+  volume: "47"
+  pages: "1-20"
+  doi: ""
+  arxiv: ""
+
+- title: "Gaps in the number of generators of monomial Togliatti systems"
+  authors: ["Charles Almeida", "Aline V. Andrade", "Rosa M. Miró-Roig"]
+  journal: "Journal of Pure and Applied Algebra"
+  year: 2019
+  status: published
+  volume: "223"
+  pages: "1817-1831"
+  doi: ""
+  arxiv: ""
+  # aparece duplicado no Lattes; aqui entra uma vez só
+
+- title: "Lefschetz property and powers of linear forms in K[x,y,z]"
+  authors: ["Charles Almeida", "Aline V. Andrade"]
+  journal: "Forum Mathematicum"
+  year: 2017       # verificar: o volume 30 da Forum Math. costuma ser datado de 2018
+  status: published
+  volume: "30"
+  pages: "857-865"
+  doi: ""
+  arxiv: ""
+
+thesis:
+  title: "The Geometry of the Moduli Space of Torsion Free Sheaves on Projective Spaces"
+  institution: "Universidade Estadual de Campinas (UNICAMP)"
+  year: 2019
+  advisor: "Marcos Jardim"
+  note: "Sandwich period at Universitat de Barcelona with Rosa Maria Miró-Roig"

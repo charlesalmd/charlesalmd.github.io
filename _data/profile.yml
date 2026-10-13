@@ -1,0 +1,58 @@
+# Dados de identificação. Pendências marcadas com TODO não devem ser inventadas.
+
+name: "Charles Almeida"
+full_name: "Charles Aparecido de Almeida"
+citation_names: ["Almeida, C. A.", "Almeida, Charles"]
+photo: "/assets/img/charles.webp"
+photo_fallback: "/assets/img/charles.jpg"
+
+position:
+  pt: "Professor Adjunto, Departamento de Matemática, ICEx, UFMG (desde 2019)"
+  en: "Professor of Mathematics (Professor Adjunto), Department of Mathematics, ICEx, UFMG (since 2019)"
+
+contact:
+  email: "charlesalmeida@mat.ufmg.br"
+  office: "4093"
+  address_pt: ["Departamento de Matemática, ICEx", "Universidade Federal de Minas Gerais", "Av. Antônio Carlos, 6627, Pampulha", "31270-901 Belo Horizonte, MG, Brasil"]
+
+ids:
+  lattes: "http://lattes.cnpq.br/7403291254527395"
+  orcid: "https://orcid.org/0000-0001-9303-0767"
+  google_scholar: "https://scholar.google.com.br/citations?user=wPjnMlEAAAAJ"
+  math_genealogy: "https://mathgenealogy.org/id.php?id=248104"
+  github: "https://github.com/charlesalmd"
+  arxiv: "TODO"          # criar/ligar ao ORCID
+  mathscinet: "TODO"
+  zbmath: "TODO"
+
+education:
+  - {years: "2014 a 2019", pt: "Doutorado em Matemática, UNICAMP, orientação de Marcos Jardim; doutorado sanduíche na Universitat de Barcelona com Rosa Maria Miró-Roig", en: "PhD in Mathematics, UNICAMP, advised by Marcos Jardim; sandwich period at Universitat de Barcelona with Rosa Maria Miró-Roig"}
+  - {years: "2010 a 2014", pt: "Bacharelado em Matemática, UNICAMP", en: "BSc in Mathematics, UNICAMP"}
+
+positions:
+  - {years: "2019 até hoje", pt: "Professor Adjunto, UFMG", en: "Professor Adjunto, UFMG"}
+  - {years: "2024", pt: "Pesquisador visitante (pós-doutorado), SISSA, Trieste", en: "Visiting researcher (postdoc), SISSA, Trieste"}
+  - {years: "2019", pt: "Pós-doutorado, IME-USP", en: "Postdoc, IME-USP"}
+
+service:
+  - {since: "03/2023", pt: "Subcoordenador do colegiado de graduação em Matemática"}
+  - {since: "04/2022", pt: "Representante dos docentes não titulares na Câmara do Departamento de Matemática"}
+  - {pt: "Revisor: European Journal of Mathematics; zbMATH"}
+
+outreach:
+  - name_pt: "PIC/OBMEP, Região MG01"
+    role_pt: "Coordenador acadêmico"
+    since: 2026
+    note_pt: "Cerca de 400 alunos em 29 municípios de Minas Gerais"   # Charles confirma se publica o número
+  - name_pt: "Projeto Olimpo"
+    role_pt: "Fundador e coordenador"
+    since: 2020
+    note_pt: "Treinamento para olimpíadas científicas para alunos de escolas públicas"
+  - name_pt: "Professor do POTI (Polo Olímpico de Treinamento Intensivo)"
+    years: "2015, 2018"
+
+olympiad_history:   # opcional, Charles decide se entra na página de Extensão
+  - {year: 2009, pt: "Medalha de bronze, OBMEP"}
+  - {year: "2006 a 2008", pt: "Menções honrosas, OBMEP"}
+
+languages: ["Português", "Inglês", "Espanhol", "Italiano (leitura)"]

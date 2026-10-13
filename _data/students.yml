@@ -1,0 +1,70 @@
+# Orientações, extraídas do Lattes. Nomes e títulos como no Lattes, salvo correções marcadas.
+# Páginas: /orientacao/ (PT) e /en/students/ (EN). Títulos ficam no idioma original.
+
+current:
+  postdoc:
+    - name: "Gabriel ????"          # NÃO está no Lattes; Charles confirma nome completo e se entra
+      topic: "Folheações, estruturas de Poisson e superfolheações"
+      since: 2026
+  phd:
+    - name: "Laurinda Moraes"
+      topic: "Fibrados vetoriais de posto 3 em esquemas projetivos"
+      since: 2026
+    - name: "Gabriel Braga"
+      topic: "Propriedades de Lefschetz em álgebras artinianas"
+      since: 2025
+    - name: "Bruno Wellington Moreira"   # Lattes grafa "Wellinton" na orientação e "Wellington" na banca: verificar
+      topic: "Mônadas lineares em espaços super projetivos"
+      since: 2025
+      co_advisor: "Ugo Bruzzo"
+    - name: "Leonardo Silva de Oliveira"
+      topic: "Espaços de moduli de feixes sem torção"
+      since: 2024
+      institution: "UNICAMP"
+      role: "coorientador"
+  masters:
+    - name: "Lucas Alberto Carvalho Barbosa"   # "Lucas Alberto" no Lattes; mesmo aluno da IC de 2023/2024
+      topic: "Problemas de classificação em geometria algébrica"
+      since: 2025
+
+completed:
+  phd:
+    - name: "Anne C. C. de Albuquerque"
+      title: "Fibrados de Posto 3 Correspondentes a Curvas Gorenstein no Espaço Projetivo"
+      year: 2026
+  masters:
+    - name: "Gabriel Braga"
+      title: "Propriedade Fraca de Lefschetz em Álgebras Artinianas Interseção Completa de Codimensão 3"
+      year: 2024
+    - name: "Wendell H. C. Claudino"     # Lattes também grafa "Claudinho": verificar
+      title: "Representações de grupos finitos e o passeio aleatório no grupo simétrico"
+      year: 2024
+    - name: "Leonardo Silva de Oliveira"
+      title: "Mônadas de Horrocks e Feixes Localmente Livres em Variedades Aritmeticamente Cohen-Macaulay"
+      year: 2023
+    - name: "Gabriela Araujo Ramalho"
+      title: "Tempos Estacionários Fortes, Acoplamentos, Análise de Fourier e Propriedades de Mistura de Cadeias de Markov"
+      year: 2022
+      role: "coorientador"
+  undergraduate_research:
+    - {name: "Guilherme Henrique de Sá", title: "Introdução à Teoria de Categorias", year: 2026}
+    - {name: "Leticia Silveira Martins", title: "Aplicações de geometria riemanniana à física", year: 2026}
+    - {name: "Lucas Alberto Carvalho Barbosa", title: "Geometria Algébrica e Algoritmos", year: 2024}
+    - {name: "Guilherme Henrique de Sá", title: "Introdução à teoria de Galois", year: 2024}
+    - {name: "Gustavo Passoa Ribeiro", title: "Introdução à geometria algébrica", year: 2024}
+    - {name: "Lucas Alberto Carvalho Barbosa", title: "Introdução à geometria algébrica", year: 2023}
+    - {name: "Kelvin Souza", title: "Introdução à álgebra comutativa", year: 2023}
+    - {name: "Yasmim Torre Moraes", title: "Tópicos em Teoria de Grupos", year: 2023}
+    - {name: "Maíra Isabela Ferreira", title: "Introdução à Geometria Algébrica", year: 2022}
+    - {name: "Arthur Ruback", title: "Dualidades em Geometria Projetiva", year: 2021}
+    - {name: "Maíra Isabela Ferreira", title: "Curvas Algébricas e aplicações", year: 2021}
+    - {name: "Wendell H. C. Claudino", title: "Representações de Grupos Finitos e Probabilidade", year: 2021}
+    - {name: "Antonio Kaique Barroso Fernandes", title: "Curvas Algébricas e aplicações", year: 2021}
+
+recruiting:
+  pt: >-
+    Oriento alunos de mestrado e doutorado em geometria algébrica. Alunos interessados devem ter
+    formação sólida em álgebra e são incentivados a cursar Geometria Algébrica e Álgebra Comutativa.
+    Recomendo entrar em contato durante ou após essas disciplinas, para discutirmos possíveis
+    direções de pesquisa. No momento, não estou aceitando novos alunos de iniciação científica.
+  en: ""   # Claude Code traduz; Charles revisa
