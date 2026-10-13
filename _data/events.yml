@@ -2,13 +2,16 @@
 
 organized:
   - name: "Symposium on Supergeometry, Algebraic Geometry and Foliations (FOLGA)"
+    name_en: "Symposium on Supergeometry, Algebraic Geometry and Foliations"
     year: 2026
     dates: "30/11 a 04/12/2026"
+    dates_en: "November 30 to December 4"
     place: "UFMG, Belo Horizonte"
     url: "https://folgaufmg.github.io"
   - name: "IX Bandoleros / IX Workshop on Vector Bundles and Applications"
     year: 2025
   - name: "III Jornada Brasileira em Propriedades de Lefschetz"
+    name_en: "III Brazilian Workshop on Lefschetz Properties"
     year: 2025
     url: "https://jornadaslp.github.io/jornadas-lp/"
   - name: "II Jornada Brasileira em Propriedades de Lefschetz"

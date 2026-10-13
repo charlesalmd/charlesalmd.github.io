@@ -10,6 +10,20 @@ position:
   pt: "Professor Adjunto, Departamento de Matemática, ICEx, UFMG (desde 2019)"
   en: "Tenured Assistant Professor (Professor Adjunto), Department of Mathematics, ICEx, UFMG (since 2019)"
 
+# Frase do hero. EN: texto do protótipo atual. PT: adaptação do protótipo anterior (revisar).
+hero:
+  en: "Tenured Assistant Professor (Professor Adjunto), Department of Mathematics, UFMG. Algebraic geometry: moduli spaces of sheaves, vector bundles, Lefschetz properties and supergeometry."
+  pt: "Professor Adjunto, Departamento de Matemática, UFMG. Geometria algébrica: espaços de moduli de feixes, fibrados vetoriais, propriedades de Lefschetz e supergeometria."
+
+# Resumo de pesquisa (home e /research/). EN: protótipo atual. PT: protótipo anterior.
+research_summary:
+  en:
+    - "I study the global geometry of moduli spaces of sheaves on projective varieties: their irreducible components, their geometry and decomposition phenomena, and how they interact with Lefschetz properties."
+    - "More recently I have extended this to algebraic supergeometry, studying bundles and moduli spaces on supermanifolds."
+  pt:
+    - "Estudo a geometria global de espaços de moduli de feixes em variedades projetivas: componentes irredutíveis, sua geometria e seus invariantes, e as conexões com propriedades de Lefschetz."
+    - "Mais recentemente, levo essas perguntas para a supergeometria algébrica, estudando fibrados e espaços de moduli em supervariedades."
+
 contact:
   email: "charlesalmeida@mat.ufmg.br"
   office: "4093"

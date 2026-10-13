@@ -9,16 +9,20 @@ current:
   phd:
     - name: "Laurinda Moraes"
       topic: "Fibrados vetoriais de posto 3 em esquemas projetivos"
+      topic_en: "Rank 3 vector bundles on projective schemes"
       since: 2026
     - name: "Gabriel Braga"
       topic: "Propriedades de Lefschetz em álgebras artinianas"
+      topic_en: "Lefschetz properties in Artinian algebras"
       since: 2025
     - name: "Bruno Wellington Moreira"   # grafia confirmada: Wellington
       topic: "Mônadas lineares em espaços super projetivos"
+      topic_en: "Linear monads on super projective spaces"
       since: 2025
       co_advisor: "Ugo Bruzzo"
     - name: "Leonardo Silva de Oliveira"
       topic: "Espaços de moduli de feixes sem torção"
+      topic_en: "Moduli spaces of torsion free sheaves"
       since: 2024
       institution: "UNICAMP"
       role: "coorientador"
@@ -62,9 +66,18 @@ completed:
     - {name: "Antonio Kaique Barroso Fernandes", title: "Curvas Algébricas e aplicações", year: 2021}
 
 recruiting:
-  pt: >-
-    Oriento alunos de mestrado e doutorado em geometria algébrica. Alunos interessados devem ter
-    formação sólida em álgebra e são incentivados a cursar Geometria Algébrica e Álgebra Comutativa.
-    Recomendo entrar em contato durante ou após essas disciplinas, para discutirmos possíveis
-    direções de pesquisa. No momento, não estou aceitando novos alunos de iniciação científica.
-  en: ""   # Claude Code traduz; Charles revisa
+  # Um item por parágrafo. EN: texto do protótipo atual; Charles revisa.
+  pt:
+    - >-
+      Oriento alunos de mestrado e doutorado em geometria algébrica. Alunos interessados devem ter
+      formação sólida em álgebra e são incentivados a cursar Geometria Algébrica e Álgebra Comutativa.
+      Recomendo entrar em contato durante ou após essas disciplinas, para discutirmos possíveis
+      direções de pesquisa.
+    - "No momento, não estou aceitando novos alunos de iniciação científica."
+  en:
+    - >-
+      I supervise master's and PhD students in algebraic geometry. Prospective students should have a
+      solid background in algebra and are encouraged to take the courses in Algebraic Geometry and
+      Commutative Algebra. I suggest getting in touch during or after those courses, so we can discuss
+      possible research directions.
+    - "I am not currently taking new undergraduate research students."

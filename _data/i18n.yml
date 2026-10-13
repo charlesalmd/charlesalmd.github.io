@@ -1,0 +1,75 @@
+# Textos de interface. Traduções para o inglês: revisar (ver PENDENCIAS.md).
+
+en:
+  html_lang: "en"
+  other_lang: "pt"
+  other_lang_name: "Português"
+  other_lang_html: "pt-BR"
+  home: "/"
+  skip: "Skip to content"
+  menu: "Menu"
+  nav_label: "Main"
+  nav:
+    - {label: "Research", url: "/research/"}
+    - {label: "Students", url: "/students/"}
+    - {label: "Teaching", url: "/teaching/"}
+    - {label: "Events", url: "/events/"}
+    - {label: "Outreach", url: "/outreach/"}
+    - {label: "CV", url: "/cv/"}
+  email: "Email"
+  research: "Research"
+  selected_work: "Selected work"
+  all_publications: "All publications"
+  students: "Students"
+  postdoc: "Postdoctoral researcher"
+  phd_students: "PhD students"
+  former_students: "Former students"
+  co_advised: "co-advised"
+  events: "Events"
+  all_events: "All events"
+  organizer: "Organizer."
+  with: "with"
+  and: "and"
+  to_appear: "to appear"
+  contact: "Contact"
+  room: "Room"
+  profiles: "Profiles"
+  photo_alt: "Photo of Charles Almeida"
+  address: ["Department of Mathematics, ICEx", "Universidade Federal de Minas Gerais (UFMG)", "Av. Antônio Carlos, 6627, Pampulha", "31270-901 Belo Horizonte, MG, Brazil"]
+
+pt:
+  html_lang: "pt-BR"
+  other_lang: "en"
+  other_lang_name: "English"
+  other_lang_html: "en"
+  home: "/pt/"
+  skip: "Pular para o conteúdo"
+  menu: "Menu"
+  nav_label: "Principal"
+  nav:
+    - {label: "Pesquisa", url: "/research/"}
+    - {label: "Orientação", url: "/pt/orientacao/"}
+    - {label: "Ensino", url: "/pt/ensino/"}
+    - {label: "Eventos", url: "/pt/eventos/"}
+    - {label: "Extensão", url: "/pt/extensao/"}
+    - {label: "CV", url: "/pt/cv/"}
+  email: "E-mail"
+  research: "Pesquisa"
+  selected_work: "Trabalhos selecionados"
+  all_publications: "Todas as publicações"
+  students: "Orientação"
+  postdoc: "Pós-doutorado"
+  phd_students: "Doutorado em andamento"
+  former_students: "Ex-orientandos e iniciação científica"
+  co_advised: "coorientação"
+  events: "Eventos"
+  all_events: "Todos os eventos"
+  organizer: "Organização."
+  with: "com"
+  and: "e"
+  to_appear: "aceito"
+  contact: "Contato"
+  room: "Sala"
+  profiles: "Perfis"
+  photo_alt: "Foto de Charles Almeida"
+  address: ["Departamento de Matemática, ICEx", "Universidade Federal de Minas Gerais (UFMG)", "Av. Antônio Carlos, 6627, Pampulha", "31270-901 Belo Horizonte, MG, Brasil"]
