@@ -203,7 +203,10 @@ footer li{margin:0 0 .35rem}
 @media (max-width:900px){
   .nav{display:none}
   .hero .wrap{grid-template-columns:1fr;min-height:0;padding-top:1rem}
-  .retrato{order:-1;max-width:360px}
+  .retrato{order:-1;max-width:220px}
+  /* o desenho de retas derruba a pagina no WebKit do iPhone: so no desktop */
+  .retrato svg{display:none}
+  .retrato img{inset:0;width:100%;height:100%}
   .cols,.agora,footer .wrap{grid-template-columns:1fr}
   .cols{gap:2rem}
   main section{padding:3.2rem 0}
