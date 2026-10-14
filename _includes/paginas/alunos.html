@@ -9,12 +9,6 @@
 </div>
 
 <h2>{{ t.current }}</h2>
-<p class="nivel">{{ t.postdoc }}</p>
-<ul class="alunos">
-  {%- for a in s.current.postdoc %}
-  {% include aluno.html aluno=a t=t lang=lang %}
-  {%- endfor %}
-</ul>
 <p class="nivel">{{ t.phd_students }}</p>
 <ul class="alunos">
   {%- for a in s.current.phd %}
@@ -24,6 +18,12 @@
 <p class="nivel">{{ t.masters_students }}</p>
 <ul class="alunos">
   {%- for a in s.current.masters %}
+  {% include aluno.html aluno=a t=t lang=lang %}
+  {%- endfor %}
+</ul>
+<p class="nivel">{{ t.postdoc }}</p>
+<ul class="alunos">
+  {%- for a in s.current.postdoc %}
   {% include aluno.html aluno=a t=t lang=lang %}
   {%- endfor %}
 </ul>

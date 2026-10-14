@@ -68,15 +68,15 @@ layout: default
         </div>
       </div>
       <div>
-        <p class="nivel">{{ t.postdoc }}</p>
-        <ul class="alunos">
-          {%- for a in s.current.postdoc %}
-          {% include aluno.html aluno=a t=t lang=page.lang %}
-          {%- endfor %}
-        </ul>
         <p class="nivel">{{ t.phd_students }}</p>
         <ul class="alunos">
           {%- for a in s.current.phd %}
+          {% include aluno.html aluno=a t=t lang=page.lang %}
+          {%- endfor %}
+        </ul>
+        <p class="nivel">{{ t.postdoc }}</p>
+        <ul class="alunos">
+          {%- for a in s.current.postdoc %}
           {% include aluno.html aluno=a t=t lang=page.lang %}
           {%- endfor %}
         </ul>
