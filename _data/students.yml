@@ -28,8 +28,8 @@ current:
       role: "coorientador"
   masters:
     - name: "Lucas Alberto Carvalho Barbosa"   # "Lucas Alberto" no Lattes; mesmo aluno da IC de 2023/2024
-      topic: "Problemas de classificação em geometria algébrica"
-      topic_en: "Classification problems in algebraic geometry"   # EN: tradução, revisar
+      topic: "Esquemas Quot e de Hilbert"
+      topic_en: "Quot and Hilbert schemes"   # EN: tradução, revisar
       since: 2025
 
 completed:
