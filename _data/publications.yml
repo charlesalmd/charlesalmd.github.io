@@ -8,6 +8,7 @@
   authors: ["Charles Almeida", "Marcos Jardim", "Leonardo Oliveira"]   # como no arXiv
   journal: ""
   year: 2026
+  selected: true
   status: preprint
   doi: ""
   arxiv: "2609.32668"   # submetido em 26/09/2026; incluído a pedido do Charles
@@ -44,6 +45,7 @@
   authors: ["Charles Almeida", "Ugo Bruzzo"]
   journal: "Annali di Matematica Pura ed Applicata"
   year: 2025
+  selected: true
   status: published
   volume: "204"
   issue: "6"
@@ -55,7 +57,6 @@
   authors: ["Charles Almeida", "Claudemir Fidelis", "José Lucas Galdino"]
   journal: "Israel Journal of Mathematics"
   year: 2024
-  selected: true
   status: published # Crossref: v. 262, n. 1, set 2024
   volume: "262"
   issue: "1"

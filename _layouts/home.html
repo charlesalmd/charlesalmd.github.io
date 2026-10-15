@@ -36,8 +36,8 @@ layout: default
       <div>
         <h3>{{ t.selected_work }}</h3>
         <ol class="pubs">
-          {%- for pub in selecionados limit: 3 %}
-          {% include pub.html pub=pub t=t %}
+          {%- for pub in selecionados %}
+          {% include pub.html pub=pub t=t marca_preprint=true %}
           {%- endfor %}
         </ol>
       </div>

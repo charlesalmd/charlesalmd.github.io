@@ -15,6 +15,9 @@
   {%- capture c -%}<i>{{ pub.journal }}</i>{% if pub.volume and pub.volume != "" %} {{ pub.volume }}{% if include.completo and pub.issue and pub.issue != "" %}({{ pub.issue }}){% endif %}{% endif %}{% if include.completo and pub.pages and pub.pages != "" %}, {{ pub.pages }}{% endif %}{% if pub.status == "accepted" %}, {{ t.to_appear }}{% endif %}.{%- endcapture -%}
   {%- assign partes = partes | push: c -%}
 {%- endif -%}
+{%- if include.marca_preprint and pub.status == "preprint" and pub.journal == "" -%}
+  {%- assign partes = partes | push: t.preprint_um -%}
+{%- endif -%}
 {%- if include.completo and pub.doi and pub.doi != "" -%}
   {%- capture c -%}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{%- endcapture -%}
   {%- assign partes = partes | push: c -%}
