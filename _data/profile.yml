@@ -33,7 +33,7 @@ about:
     - "I was a postdoctoral researcher at IME-USP (São Paulo-Brazil) in 2019."
     - "From 2024 to 2025, I was on sabbatical leave at SISSA (Trieste-Italy)."
   pt:
-    - "Obtive meu bacharelado (2010 a 2014) e doutorado direto (2014 a 2019) em Matemática pela UNICAMP, com período de doutorado sanduíche na Universitat de Barcelona (Barcelona-Espanha). Realizei pós-doutorado no IME-USP em 2019. Entre 2024 e 2025, fui pesquisador visitante na SISSA (Trieste-Itália)."   # original: "Entre 2024, fui"; completado com 2025 conforme o texto em inglês (verificar)
+    - "Obtive meu bacharelado (2010 a 2014) e doutorado direto (2014 a 2019) em Matemática pela UNICAMP, com período de doutorado sanduíche na Universitat de Barcelona (Barcelona-Espanha). Realizei pós-doutorado no IME-USP em 2019. Entre 2024 e 2025, estive em licença sabática na SISSA (Trieste-Itália)."
 
 contact:
   email: "charlesalmeida@mat.ufmg.br"
@@ -57,7 +57,7 @@ education:
 
 positions:
   - {years: "2019 até hoje", years_en: "2019 to present", pt: "Professor Adjunto, UFMG", en: "Tenured Assistant Professor (Professor Adjunto), UFMG"}
-  - {years: "2024 a 2025", years_en: "2024 to 2025", pt: "Pesquisador visitante (pós-doutorado), SISSA, Trieste", en: "Visiting researcher (postdoc), SISSA, Trieste"}
+  - {years: "2024 a 2025", years_en: "2024 to 2025", pt: "Pesquisador visitante (licença sabática), SISSA, Trieste", en: "Visiting researcher (sabbatical leave), SISSA, Trieste"}
   - {years: "2019", years_en: "2019", pt: "Pós-doutorado, IME-USP", en: "Postdoc, IME-USP"}
 
 service:   # nao aparece no site (decisao do Charles, 13/10/2026); fica so como registro
