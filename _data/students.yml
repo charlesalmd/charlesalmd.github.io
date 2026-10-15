@@ -54,10 +54,10 @@ completed:
   undergraduate_research:
     - {name: "Guilherme Henrique de Sá", title: "Introdução à Teoria de Categorias", year: 2026}
     - {name: "Leticia Silveira Martins", title: "Aplicações de geometria riemanniana à física", year: 2026}
-    - {name: "Lucas Alberto Carvalho Barbosa", title: "Geometria Algébrica e Algoritmos", year: 2024}
+    - {name: "Lucas Alberto Carvalho Barbosa", title: "Introdução à geometria algébrica", year: 2024}
     - {name: "Guilherme Henrique de Sá", title: "Introdução à teoria de Galois", year: 2024}
     - {name: "Gustavo Passoa Ribeiro", title: "Introdução à geometria algébrica", year: 2024}
-    - {name: "Lucas Alberto Carvalho Barbosa", title: "Introdução à geometria algébrica", year: 2023}
+    - {name: "Lucas Alberto Carvalho Barbosa", title: "Geometria Algébrica e Algoritmos", year: 2023}
     - {name: "Kelvin Souza", title: "Introdução à álgebra comutativa", year: 2023}
     - {name: "Yasmim Torre Moraes", title: "Tópicos em Teoria de Grupos", year: 2023}
     - {name: "Maíra Isabela Ferreira", title: "Introdução à Geometria Algébrica", year: 2022}
