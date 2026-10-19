@@ -25,6 +25,8 @@ lang: pt
 
 [Lista 1](lista-1.pdf) , [Lista 2](lista-2.pdf),  [Lista 3](lista-3.pdf) (<strong>Atenção:</strong> a lista 3 contém exercícios para as próximas três semanas).
 
+[Lista de operadores autoadjuntos](lista-operadores-adjuntos.pdf)
+
 <strong>Bibliografia</strong>
 
 [1] A. Moura, Álgebra linear com geometria analítica (2023). Link [aqui](https://www.ime.unicamp.br/~aamoura/Ensino/Ensino.html)
