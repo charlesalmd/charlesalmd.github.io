@@ -4,6 +4,14 @@
 # arxiv: conferido na API do arXiv em 13/10/2026.
 # Exibição: só em inglês (página /research/). A home mostra os itens com selected: true.
 
+- title: "Moduli spaces of rank 2 sheaves on ℙ³ via Quot schemes"
+  authors: ["Charles Almeida", "Nicolò Bignami", "Marcos Jardim", "Andrea T. Ricolfi"]   # como no arXiv
+  journal: ""
+  year: 2026
+  status: preprint
+  doi: ""
+  arxiv: "2611.01961"   # submetido em 01/11/2026; incluído a pedido do Charles
+
 - title: "The moduli space of torsion-free sheaves with quasi-maximal third Chern class"
   authors: ["Charles Almeida", "Marcos Jardim", "Leonardo Oliveira"]   # como no arXiv
   journal: ""
