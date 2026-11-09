@@ -29,6 +29,10 @@ lang: pt
 
 [Lista de Forma de Jordan Bônus](lista-forma-de-jordan.pdf)
 
+<strong>Seminários</strong>
+
+[Temas para seminários](temas-seminarios.pdf)
+
 <strong>Bibliografia</strong>
 
 [1] A. Moura, Álgebra linear com geometria analítica (2023). Link [aqui](https://www.ime.unicamp.br/~aamoura/Ensino/Ensino.html)
