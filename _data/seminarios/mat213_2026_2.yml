@@ -1,0 +1,44 @@
+# Grupos de seminário da MAT213, 2026/2, turma TM2.
+# Temas conforme pt/ensino/2026-2/mat213/temas-seminarios.pdf.
+# Grupos confirmados por e-mail em 09/11/2026. Tema sem grupo: integrantes vazio.
+- codigo: S1
+  tema: Produto simétrico
+  integrantes:
+    - Guilherme Asafe de Siqueira Meireles
+    - Lucas Macedo Ribas
+    - Sérgio Junior de Araujo
+- codigo: S2
+  tema: Produto exterior
+  integrantes:
+    - Catarina Coimbra Valerio de Carvalho
+    - Erica Aparecida Correia Junqueira
+    - Guilherme Mateus Gonçalves
+    - Julia Luiza Mendes da Silva
+    - Lucas Augusto Oliviera da Silva
+    - Luiza Caroline Santos Jeremias
+- codigo: S3
+  tema: Potências simétricas de transformações lineares
+  integrantes: []
+- codigo: S4
+  tema: Potências exteriores de transformações lineares e o determinante
+  integrantes:
+    - Gil Joffily Ribas
+    - Mariana Vieira Barreto
+    - Rafael Prado Paniago
+- codigo: S5
+  tema: Álgebras de Clifford
+  integrantes:
+    - Aynoa Souza Jorgino
+    - Gabriel Messias Cunha Moreira
+    - João Vitor Rodrigues Carneiro
+    - Lucas Rodrigues Pereira
+    - Luma Martins Ferreira Guimarães
+    - Maranubia Aguiar Siqueira
+- codigo: S6
+  tema: "Grassmannianas: subespaços como vetores do produto exterior"
+  integrantes:
+    - Cristiano Campos de Oliveira
+    - Gabriel Gonzaga Rocha
+    - Henrique Lavorato Oliveira de Salvo
+    - Pedro Henrique Araujo Sartori Guedes
+    - Tiago Servilha Maciel

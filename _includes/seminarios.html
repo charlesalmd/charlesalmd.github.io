@@ -1,0 +1,19 @@
+{%- comment -%}
+  Grupos de seminário de uma disciplina. Parâmetro: grupos (lista de _data/seminarios/*.yml),
+  com codigo, tema e integrantes.
+{%- endcomment -%}
+<ul class="seminarios">
+{%- for g in include.grupos %}
+  <li>
+    <span class="sem-codigo">{{ g.codigo }}</span>
+    <div>
+      <p class="sem-tema">{{ g.tema }}</p>
+      {%- if g.integrantes.size > 0 %}
+      <p class="sem-grupo">{{ g.integrantes | join: ", " }}</p>
+      {%- else %}
+      <p class="sem-grupo sem-aberto">Grupo ainda não definido.</p>
+      {%- endif %}
+    </div>
+  </li>
+{%- endfor %}
+</ul>

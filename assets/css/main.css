@@ -267,3 +267,12 @@ footer li{margin:0 0 .35rem}
 .trilha{font-family:var(--display);font-size:.95rem;margin:0 0 .6rem}
 .disciplina p{margin:0 0 .7rem}
 .disciplina strong{font-weight:600}
+
+/* grupos de seminario */
+.seminarios{list-style:none;padding:0;margin:.4rem 0 1.6rem;border-top:1px solid var(--regua)}
+.seminarios li{display:grid;grid-template-columns:3rem 1fr;gap:1rem;padding:.9rem 0;border-bottom:1px solid var(--regua);margin:0}
+.sem-codigo{font-family:var(--display);font-weight:600;font-size:1rem;color:var(--buganvilia);padding-top:.12rem;font-variant-numeric:tabular-nums}
+.disciplina .sem-tema{font-family:var(--display);font-weight:500;font-size:1.08rem;line-height:1.35;margin:0 0 .3rem}
+.disciplina .sem-grupo{color:var(--cinza);font-size:1rem;line-height:1.5;margin:0}
+.sem-aberto{font-style:italic}
+@media (max-width:420px){.seminarios li{grid-template-columns:2.4rem 1fr;gap:.7rem}}
