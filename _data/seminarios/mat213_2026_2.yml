@@ -1,9 +1,10 @@
 # Grupos de seminário da MAT213, 2026/2, turma TM2.
 # Temas conforme pt/ensino/2026-2/mat213/temas-seminarios.pdf.
-# Grupos confirmados por e-mail em 09/11/2026. Tema sem grupo: integrantes vazio.
+# Grupos confirmados por e-mail em 09/11/2026; S3 e acréscimo em S1 em 16/11/2026. Tema sem grupo: integrantes vazio.
 - codigo: S1
   tema: Produto simétrico
   integrantes:
+    - Gabriel Bernardes Neves
     - Guilherme Asafe de Siqueira Meireles
     - Lucas Macedo Ribas
     - Sérgio Junior de Araujo
@@ -18,7 +19,13 @@
     - Luiza Caroline Santos Jeremias
 - codigo: S3
   tema: Potências simétricas de transformações lineares
-  integrantes: []
+  integrantes:
+    - Arthur C.
+    - Fernando Vieira
+    - Gabriel Dias Ferreira Pinto
+    - Iago Moreira
+    - Theodoro Nascimento Moreira
+    - Vinícius Maia
 - codigo: S4
   tema: Potências exteriores de transformações lineares e o determinante
   integrantes:
